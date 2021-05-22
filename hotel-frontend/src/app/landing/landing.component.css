@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card > .card-header > a {
+  font-size: 22px;
+  color: black !important;
+  text-decoration: none;
+}

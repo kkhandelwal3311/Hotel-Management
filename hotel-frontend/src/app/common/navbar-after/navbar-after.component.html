@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a routerLink="user-home" class="navbar-brand">BookMySuite</a>
+  <button
+    type="button"
+    class="navbar-toggler"
+    data-toggle="collapse"
+    data-target="#navbarCollapse"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav ml-auto">
+      <a routerLink="/user-dashboard" class="nav-item nav-link">Home</a>
+      <a routerLink="/user-booking" class="nav-item nav-link">All Bookings</a>
+      <div class="dropdown">
+        <button
+          class="dropbtn nav-item nav-link"
+          style="color: white; font-size: 18px"
+        >
+          <i
+            class="fa fa-user-circle-o"
+            style="font-size: 18px; color: white"
+          ></i>
+          {{ userData.userName }}
+          <i
+            class="fa fa-angle-down ml-1"
+            style="font-size: 20px; color: white"
+          ></i>
+        </button>
+        <div class="dropdown-content">
+          <a [routerLink]="['/user-profile']"
+            ><i
+              class="fa fa-user mr-3"
+              style="font-size: 20px; color: #dddddd"
+            ></i
+            >View Profile</a
+          >
+          <a (click)="logoutUser()"
+            ><i
+              class="fa fa-power-off mr-3"
+              style="font-size: 20px; color: #dddddd"
+            ></i
+            >Logout</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

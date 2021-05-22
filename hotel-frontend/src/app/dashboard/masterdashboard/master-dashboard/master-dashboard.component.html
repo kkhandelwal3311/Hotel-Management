@@ -1,0 +1,52 @@
+<div class="container-fluid">
+  <div class="outer-box">
+    <!-- Sidebar -->
+    <div class="outer-box-sidebar">
+      <a class="s-sidebar-trigger" routerLink="#">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <nav class="s-sidebar-nav">
+        <ul>
+          <li>
+            <h1 style="text-align: center; font-size: 1.8rem; margin-top: 15px">
+              <em>BookMySuite</em>
+            </h1>
+          </li>
+
+          <li>
+            <a class="s-sidebar-nav-link" routerLink="/master-dashboard/user">
+              <em>User</em>
+            </a>
+          </li>
+
+          <li>
+            <a class="s-sidebar-nav-link" routerLink="/master-dashboard/hotel">
+              <em>Hotel</em>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="s-sidebar-nav-link"
+              routerLink="/master-dashboard/payment"
+            >
+              <em>Payments</em>
+            </a>
+          </li>
+
+          <li (click)="logoutMaster()">
+            <a class="s-sidebar-nav-link">
+              <em>Logout</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Content -->
+    <main class="outer-box-content">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>

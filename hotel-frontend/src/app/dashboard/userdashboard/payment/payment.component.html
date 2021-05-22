@@ -1,0 +1,201 @@
+<app-navbar-after></app-navbar-after>
+<div class="container box">
+  <div class="row">
+    <div class="offset-lg-3"></div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <h1>
+        Your Booking has been confirmed
+        <span style="font-size: 50px; color: green; padding-left: 10px"
+          >&#10004;</span
+        >
+      </h1>
+      <pre></pre>
+      <h3>Your Booking details are :-</h3>
+      <form role="form">
+        <div class="row">
+          <div class="col-xs-4 col-md-4">
+            <div class="form-group">
+              <label for="bookingId">Booking id</label>
+              <input
+                type="text"
+                class="form-control"
+                id="bookingId"
+                name="bookingId"
+                [(ngModel)]="paymentData.bookingId.bookingId"
+                disabled
+              />
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-4 pull-right">
+            <div class="form-group">
+              <label for="paymentId">Payment id</label>
+              <input
+                type="text"
+                class="form-control"
+                id="paymentId"
+                name="paymentId"
+                [(ngModel)]="paymentData.paymentId"
+                disabled
+              />
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-4 pull-right">
+            <div class="form-group">
+              <label for="transactionId">Transaction id</label>
+              <input
+                type="text"
+                class="form-control"
+                id="transactionId"
+                name="transactionId"
+                [(ngModel)]="paymentData.transactionId.transactionId"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-4 col-md-4">
+            <div class="form-group">
+              <label for="hotelId">Hotel id</label>
+              <input
+                type="text"
+                class="form-control"
+                id="hotelId"
+                name="hotelId"
+                disabled
+                [(ngModel)]="paymentData.bookingId.hotelId.hotelId"
+              />
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-4 pull-right">
+            <div class="form-group">
+              <label for="roomId">Room No</label>
+              <input
+                type="text"
+                class="form-control"
+                id="roomId"
+                name="roomId"
+                disabled
+                [(ngModel)]="paymentData.bookingId.roomId.roomNo"
+              />
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-4 pull-right">
+            <div class="form-group">
+              <label for="userId">User id</label>
+              <input
+                type="text"
+                class="form-control"
+                id="userId"
+                name="userId"
+                [(ngModel)]="paymentData.bookingId.userId.userId"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <div class="form-group">
+              <label for="hotelName">Hotel name</label>
+
+              <input
+                type="text"
+                class="form-control"
+                id="hotelName"
+                name="hotelName"
+                [(ngModel)]="paymentData.bookingId.hotelId.hotelName"
+                disabled
+              />
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-6 pull-right">
+            <div class="form-group">
+              <label for="userName">User name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="userName"
+                name="userName"
+                [(ngModel)]="paymentData.bookingId.userId.userName"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <div class="form-group">
+              <label for="noOfAdults">No. of Adults</label>
+
+              <input
+                type="text"
+                class="form-control"
+                id="noOfAdults"
+                name="noOfAdults"
+                [(ngModel)]="paymentData.bookingId.noOfAdults"
+                disabled
+              />
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-6 pull-right">
+            <div class="form-group">
+              <label for="noOfChildren">No. of Child</label>
+              <input
+                type="text"
+                class="form-control"
+                id="noOfChildren"
+                name="noOfChildren"
+                [(ngModel)]="paymentData.bookingId.noOfChildren"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <div class="form-group">
+              <label for="bookedFrom">Booked From</label>
+              <input
+                type="text"
+                class="form-control"
+                id="bookedFrom"
+                name="bookedFrom"
+                [ngModel]="paymentData.bookingId.bookedFrom|date: 'dd/MM/yyyy'" (ngModel)="paymentData.bookingId.bookedFrom = $event"
+                disabled
+              />
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-6 pull-right">
+            <div class="form-group">
+              <label for="bookedTo">Booked To</label>
+              <input
+                type="text"
+                class="form-control"
+                id="bookedTo"
+                name="bookedTo"
+                [ngModel]="paymentData.bookingId.bookedTo|date: 'dd/MM/yyyy'" (ngModel)="paymentData.bookingId.bookedTo = $event"
+                disabled
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+      <pre></pre>
+      <button
+        class="btn btn-lg btn-block"
+        type="button"
+        routerLink="/user-dashboard"
+      >
+        Go to Home Page
+      </button>
+    </div>
+    <div class="offset-lg-3"></div>
+  </div>
+</div>

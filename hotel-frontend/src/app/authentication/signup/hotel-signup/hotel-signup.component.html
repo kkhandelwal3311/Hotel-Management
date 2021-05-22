@@ -1,0 +1,247 @@
+<app-brand-navbar></app-brand-navbar>
+<div class="container box">
+  <form name="form" #f="ngForm" (ngSubmit)="onSubmit()">
+    <h1>Business Registration</h1>
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="form-group">
+          <label for="name">Hotel Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="hotelName"
+            placeholder="Enter your name"
+            [(ngModel)]="hotelData.hotelName"
+            #name="ngModel"
+            [ngClass]="{
+              'is-invalid': name.invalid && (name.dirty || name.touched)
+            }"
+            required
+          />
+          <div
+            *ngIf="name.invalid && (name.dirty || name.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="name.errors?.required">Name is required.</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="city">Hotel City</label>
+          <input
+            type="text"
+            class="form-control"
+            id="city"
+            name="city"
+            placeholder="Enter your city"
+            [(ngModel)]="hotelData.city"
+            [ngClass]="{
+              'is-invalid': city.invalid && (city.dirty || city.touched)
+            }"
+            #city="ngModel"
+            required
+          />
+          <div
+            *ngIf="city.invalid && (city.dirty || city.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="city.errors?.required">Hotel City is required.</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="address">Hotel Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="address"
+            name="hotelAddress"
+            placeholder="Enter your address"
+            [(ngModel)]="hotelData.address"
+            [ngClass]="{
+              'is-invalid':
+                address.invalid && (address.dirty || address.touched)
+            }"
+            #address="ngModel"
+            required
+          />
+          <div
+            *ngIf="address.invalid && (address.dirty || address.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="address.errors?.required">Hotel Address is required.</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="description">Hotel Description</label>
+          <input
+            type="text"
+            class="form-control"
+            id="description"
+            name="description"
+            placeholder="Description"
+            [(ngModel)]="hotelData.description"
+            [ngClass]="{
+              'is-invalid': desc.invalid && (desc.dirty || desc.touched)
+            }"
+            #desc="ngModel"
+            required
+          />
+          <div
+            *ngIf="desc.invalid && (desc.dirty || desc.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="desc.errors?.required">Description is required.</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="rate">Avg rate per day</label>
+          <input
+            type="text"
+            class="form-control"
+            id="rate"
+            name="avgRatePerDay"
+            placeholder="Enter avg rate per day"
+            [(ngModel)]="hotelData.avgRatePerDay"
+            [ngClass]="{
+              'is-invalid': rate.invalid && (rate.dirty || rate.touched)
+            }"
+            #rate="ngModel"
+            required
+          />
+          <div
+            *ngIf="rate.invalid && (rate.dirty || rate.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="rate.errors?.required">Room rate is required.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="form-group">
+          <label for="mobileNo">Mobile No.</label>
+          <input
+            type="text"
+            class="form-control"
+            id="mobileNo"
+            name="phone1"
+            placeholder="Enter your mobile no."
+            [(ngModel)]="hotelData.phone1"
+            [ngClass]="{
+              'is-invalid': mobNum.invalid && (mobNum.dirty || mobNum.touched)
+            }"
+            #mobNum="ngModel"
+            required
+          />
+          <div
+            *ngIf="mobNum.invalid && (mobNum.dirty || mobNum.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="mobNum.errors?.required">Mobile Number is required.</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phone2">Telephone No.</label>
+          <input
+            type="text"
+            class="form-control"
+            id="phone2"
+            name="phone2"
+            placeholder="Enter your mobile no."
+            [(ngModel)]="hotelData.phone2"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            aria-describedby="emailHelp"
+            placeholder="Enter your email"
+            [(ngModel)]="hotelData.email"
+            [ngClass]="{
+              'is-invalid': email.invalid && (email.dirty || email.touched)
+            }"
+            #email="ngModel"
+            required
+            email
+          />
+          <div
+            *ngIf="email.invalid && (email.dirty || email.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="email.errors?.required">Email is required.</p>
+            <p *ngIf="email.errors?.email">This is not a valid Email.</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            name="password"
+            placeholder="Enter password"
+            [(ngModel)]="hotelData.password"
+            [ngClass]="{
+              'is-invalid': pwd.invalid && (pwd.dirty || pwd.touched)
+            }"
+            #pwd="ngModel"
+            required
+            password
+          />
+          <div
+            *ngIf="pwd.invalid && (pwd.dirty || pwd.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="pwd.errors?.required">Password is required.</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="website">Website</label>
+          <input
+            type="text"
+            class="form-control"
+            id="website"
+            name="website"
+            placeholder="Enter your website"
+            [(ngModel)]="hotelData.website"
+            [ngClass]="{
+              'is-invalid': web.invalid && (web.dirty || web.touched)
+            }"
+            #web="ngModel"
+            required
+          />
+          <div
+            *ngIf="web.invalid && (web.dirty || web.touched)"
+            class="invalid-feedback"
+          >
+            <p *ngIf="web.errors?.required">Website is required.</p>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn" [disabled]="!f.valid">Register</button>
+
+      <pre></pre>
+      <div
+        class="form-group"
+        style="
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          flex: 1;
+          margin-top: 10px;
+        "
+      >
+        <label for="signup"
+          >Already have an account?
+          <a [routerLink]="['/hotel-login']">Login</a></label
+        >
+      </div>
+    </div>
+  </form>
+</div>
+
+<pre></pre>

@@ -1,0 +1,38 @@
+<h1>All Room data</h1>
+<div class="row box">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Room Id</th>
+          <th>Room No</th>
+          <th>Rate Per Day</th>
+          <th>Room Type</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let room of allRoomData">
+          <td (click)="roomBookingDetails(room.roomId)">{{ room.roomId }}</td>
+          <td (click)="roomBookingDetails(room.roomId)">{{ room.roomNo }}</td>
+          <td (click)="roomBookingDetails(room.roomId)">
+            {{ room.ratePerDay }}
+          </td>
+          <td (click)="roomBookingDetails(room.roomId)">{{ room.roomType }}</td>
+          <td>
+            <button
+              (click)="editRoom(room.roomId)"
+              class="btn btn-success mr-3"
+            >
+              Edit
+            </button>
+
+            <button (click)="deleteRoom(room.roomId)" class="btn btn-danger">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

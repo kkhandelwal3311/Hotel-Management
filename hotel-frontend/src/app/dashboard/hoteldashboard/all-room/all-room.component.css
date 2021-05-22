@@ -1,0 +1,21 @@
+.box {
+  margin-top: 5vh;
+  margin-left: 15px;
+  width: 90vw;
+  max-width: 80vw;
+  /* height: 400px; */
+  background-color: rgb(255, 249, 249);
+  border: 1px solid rgb(0, 0, 0, 0.05);
+  overflow-y: scroll;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+thead {
+  background-color: #313122;
+  color: white;
+  text-transform: capitalize;
+}

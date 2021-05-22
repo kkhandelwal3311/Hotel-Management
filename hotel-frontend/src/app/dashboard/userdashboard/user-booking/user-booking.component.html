@@ -1,0 +1,32 @@
+<app-navbar-after></app-navbar-after>
+
+<div class="row box">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Booking Id</th>
+          <th>Hotel Name</th>
+          <th>Phone1</th>
+          <th>No Of Adults</th>
+          <th>No Of Children</th>
+          <th>Booked From</th>
+          <th>Booked To</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let booking of bookingData">
+          <td>{{ booking.bookingId }}</td>
+          <td>{{ booking.hotelId.hotelName }}</td>
+          <td>{{ booking.hotelId.phone1 }}</td>
+          <td>{{ booking.noOfAdults }}</td>
+          <td>{{ booking.noOfChildren }}</td>
+          <td>{{ booking.bookedFrom | date: "dd/MM/yyy" }}</td>
+          <td>{{ booking.bookedTo | date: "dd/MM/yyy" }}</td>
+          <td>{{ booking.amount }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

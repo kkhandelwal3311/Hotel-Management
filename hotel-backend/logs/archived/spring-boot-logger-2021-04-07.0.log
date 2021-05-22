@@ -1,0 +1,718 @@
+2021-04-07 15:51:23,079 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-04-07 15:51:23,111 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-Q7S2MA2 with PID 14760 (D:\Javaworkspace\latestgit\hotelmanagementrepo\hotel\bin\main started by DELL in D:\Javaworkspace\latestgit\hotelmanagementrepo\hotel)
+2021-04-07 15:51:23,114 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.5
+2021-04-07 15:51:23,115 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-07 15:51:23,240 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/DELL/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/DELL/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/DELL/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/DELL/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 15:51:23,241 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 15:51:23,242 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 15:51:25,412 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 15:51:25,555 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 126 ms. Found 7 JPA repository interfaces.
+2021-04-07 15:51:27,519 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-07 15:51:27,541 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-07 15:51:27,542 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-07 15:51:27,543 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 15:51:27,743 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-07 15:51:27,744 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4501 ms
+2021-04-07 15:51:28,769 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-07 15:51:30,571 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-07 15:51:30,606 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-07 15:51:30,690 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 15:51:30,831 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 15:51:31,133 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 15:51:31,418 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 15:51:33,052 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 15:51:33,064 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 15:51:33,965 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 15:51:34,200 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-07 15:51:34,345 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 15:51:34,382 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-07 15:51:34,619 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-07 15:51:34,749 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-07 15:51:34,751 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-07 15:51:34,803 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-07 15:51:35,045 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-07 15:51:35,541 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-07 15:51:35,549 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-07 15:51:35,553 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-07 15:51:35,561 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-07 15:51:35,569 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-07 15:51:35,580 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-07 15:51:35,586 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-07 15:51:35,590 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-07 15:51:35,600 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-07 15:51:35,608 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-07 15:51:35,624 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-07 15:51:35,639 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-07 15:51:35,645 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-07 15:51:35,650 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-07 15:51:35,673 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-07 15:51:35,681 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-07 15:51:35,694 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-07 15:51:35,708 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-07 15:51:35,721 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-07 15:51:35,726 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-07 15:51:35,733 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-07 15:51:35,741 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-07 15:51:35,770 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 13.834 seconds (JVM running for 15.315)
+2021-04-07 15:52:30,948 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 15:52:30,949 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-07 15:52:30,950 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2021-04-07 15:52:30,988 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-07 15:52:30,989 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-07 16:21:31,185 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-07 16:21:31,187 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-07 16:22:02,931 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 16:22:02,931 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 16:25:06,321 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-7] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 16:25:06,326 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 16:25:06,332 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-1 - Shutdown initiated...
+2021-04-07 16:25:06,375 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-1 - Shutdown completed.
+2021-04-07 16:25:06,511 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-Q7S2MA2 with PID 14760 (D:\Javaworkspace\latestgit\hotelmanagementrepo\hotel\bin\main started by DELL in D:\Javaworkspace\latestgit\hotelmanagementrepo\hotel)
+2021-04-07 16:25:06,512 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.5
+2021-04-07 16:25:06,512 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-07 16:25:07,417 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 16:25:07,606 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 7 JPA repository interfaces.
+2021-04-07 16:25:07,775 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-07 16:25:07,776 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-07 16:25:07,776 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-07 16:25:07,776 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 16:25:07,807 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-07 16:25:07,807 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1287 ms
+2021-04-07 16:25:07,857 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-07 16:25:07,870 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-2 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-07 16:25:07,872 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-07 16:25:07,880 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 16:25:07,888 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 16:25:08,261 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 16:25:08,262 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 16:25:08,596 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 16:25:08,650 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-07 16:25:08,707 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 16:25:08,711 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-07 16:25:08,780 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-07 16:25:08,784 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-07 16:25:08,787 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-07 16:25:08,788 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-07 16:25:08,910 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-07 16:25:09,211 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-07 16:25:09,218 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-07 16:25:09,221 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-07 16:25:09,226 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-07 16:25:09,232 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-07 16:25:09,241 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-07 16:25:09,245 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-07 16:25:09,249 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-07 16:25:09,253 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-07 16:25:09,258 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-07 16:25:09,271 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-07 16:25:09,281 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-07 16:25:09,288 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-07 16:25:09,292 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-07 16:25:09,309 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-07 16:25:09,313 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-07 16:25:09,320 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-07 16:25:09,328 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-07 16:25:09,338 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-07 16:25:09,342 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-07 16:25:09,348 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-07 16:25:09,355 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-07 16:25:09,367 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 2.915 seconds (JVM running for 2028.911)
+2021-04-07 16:25:09,372 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-07 16:25:43,291 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 16:25:43,292 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-07 16:25:43,295 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 3 ms
+2021-04-07 16:25:43,302 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-07 16:25:43,303 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-07 16:28:07,987 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 16:28:07,988 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 16:28:31,367 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-07 16:28:31,367 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-07 16:29:51,942 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showAllUsers()
+2021-04-07 16:29:51,943 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showAllUsers()
+2021-04-07 16:30:12,084 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-07 16:30:12,085 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-07 16:30:17,896 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-07 16:30:17,896 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-07 16:30:30,605 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 16:30:30,606 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 16:32:02,069 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-07 16:32:02,070 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-07 16:32:07,224 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showUser()
+2021-04-07 16:32:07,225 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showUser()
+2021-04-07 16:32:07,700 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-3] User not found by userId
+2021-04-07 16:32:07,756 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-3] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 16:32:12,352 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered showUser()
+2021-04-07 16:32:12,353 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showUser()
+2021-04-07 16:32:34,915 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-07 16:32:34,916 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-07 16:32:46,942 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-07 16:32:46,942 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-07 16:32:50,235 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 16:32:50,236 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 16:33:36,277 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showAllUsers()
+2021-04-07 16:33:36,278 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showAllUsers()
+2021-04-07 16:33:41,836 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-07 16:33:41,837 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-07 16:35:42,091 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-07 16:35:42,091 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-07 16:40:48,705 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-07 16:40:48,706 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-07 16:41:03,283 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 16:41:03,283 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 16:41:21,885 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showUser()
+2021-04-07 16:41:21,886 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showUser()
+2021-04-07 16:42:40,079 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-07 16:42:40,080 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-07 16:43:25,110 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-07 16:43:25,111 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-07 16:43:41,992 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-07 16:43:41,992 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-07 16:44:52,139 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-07 16:44:52,139 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-07 16:44:52,140 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showUser()
+2021-04-07 16:44:52,140 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showUser()
+2021-04-07 16:44:57,402 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 16:44:57,402 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 16:44:57,402 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 16:44:57,404 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 16:45:12,189 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showUser()
+2021-04-07 16:45:12,189 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-07 16:45:12,190 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-07 16:45:12,190 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showUser()
+2021-04-07 16:46:53,676 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-07 16:46:53,676 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-07 16:46:53,685 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-8] Entered showUser()
+2021-04-07 16:46:53,685 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showUser()
+2021-04-07 16:47:17,681 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-07 16:47:17,682 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-07 16:47:17,685 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showUser()
+2021-04-07 16:47:17,685 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showUser()
+2021-04-07 16:47:29,153 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 16:47:29,155 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 16:47:29,159 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 16:47:29,159 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 16:47:29,166 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-6] User not found by userId
+2021-04-07 16:47:29,171 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-6] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 16:47:47,001 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-07 16:47:47,001 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showUser()
+2021-04-07 16:47:47,001 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-07 16:47:47,002 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showUser()
+2021-04-07 16:47:47,005 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-4] User not found by userId
+2021-04-07 16:47:47,007 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-4] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 16:48:27,071 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-07 16:48:27,072 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-07 16:48:27,077 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered showUser()
+2021-04-07 16:48:27,078 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showUser()
+2021-04-07 16:48:27,083 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-7] User not found by userId
+2021-04-07 16:48:27,085 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-7] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 16:48:35,009 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-07 16:48:35,010 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-07 16:48:35,010 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-8] Entered showUser()
+2021-04-07 16:48:35,010 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showUser()
+2021-04-07 16:48:35,013 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-8] User not found by userId
+2021-04-07 16:48:35,015 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-8] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 16:53:44,089 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 16:53:44,089 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 16:53:44,090 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 16:53:44,090 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 16:53:44,094 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-6] User not found by userId
+2021-04-07 16:53:44,096 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-6] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 16:57:45,402 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-07 16:57:45,403 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-07 16:57:45,406 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered showUser()
+2021-04-07 16:57:45,407 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showUser()
+2021-04-07 16:57:45,411 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-7] User not found by userId
+2021-04-07 16:57:45,412 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-7] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 17:02:27,138 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-07 17:02:27,139 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-07 17:02:27,140 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showUser()
+2021-04-07 17:02:27,140 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showUser()
+2021-04-07 17:02:27,145 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-1] User not found by userId
+2021-04-07 17:02:27,146 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-1] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 17:02:42,686 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 17:02:42,686 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 17:02:42,688 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 17:02:42,688 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 17:02:42,692 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-6] User not found by userId
+2021-04-07 17:02:42,693 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-6] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 17:02:56,732 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-07 17:02:56,733 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-07 17:02:56,734 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showUser()
+2021-04-07 17:02:56,735 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showUser()
+2021-04-07 17:02:56,742 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-4] User not found by userId
+2021-04-07 17:02:56,743 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-4] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 17:03:07,919 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-07 17:03:07,920 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered showUser()
+2021-04-07 17:03:07,920 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-07 17:03:07,920 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showUser()
+2021-04-07 17:03:07,924 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-7] User not found by userId
+2021-04-07 17:03:07,925 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-7] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 17:04:08,072 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-07 17:04:08,072 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-07 17:04:08,076 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showUser()
+2021-04-07 17:04:08,076 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showUser()
+2021-04-07 17:04:08,087 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-1] User not found by userId
+2021-04-07 17:04:08,089 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-1] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by userId]
+2021-04-07 17:04:16,908 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 17:04:16,908 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 17:04:16,914 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 17:04:16,914 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 17:05:16,246 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-07 17:05:16,247 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-07 17:05:16,250 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showUser()
+2021-04-07 17:05:16,250 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showUser()
+2021-04-07 17:05:23,146 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-07 17:05:23,146 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-07 17:05:23,148 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered showUser()
+2021-04-07 17:05:23,148 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showUser()
+2021-04-07 17:05:25,609 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-07 17:05:25,610 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered showUser()
+2021-04-07 17:05:25,610 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-07 17:05:25,610 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showUser()
+2021-04-07 17:05:36,983 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-07 17:05:36,984 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-07 17:05:36,985 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showUser()
+2021-04-07 17:05:36,985 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showUser()
+2021-04-07 17:05:40,898 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 17:05:40,898 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 17:05:40,900 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 17:05:40,900 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 17:05:46,566 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-07 17:05:46,566 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-07 17:05:46,568 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showUser()
+2021-04-07 17:05:46,568 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showUser()
+2021-04-07 23:12:23,489 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-04-07 23:12:23,509 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-Q7S2MA2 with PID 4052 (D:\Javaworkspace\latestgit\hotelmanagementrepo\hotel\bin\main started by DELL in D:\Javaworkspace\latestgit\hotelmanagementrepo\hotel)
+2021-04-07 23:12:23,510 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.5
+2021-04-07 23:12:23,511 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-07 23:12:23,581 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/DELL/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/DELL/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/DELL/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/DELL/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-04-07 23:12:23,582 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-07 23:12:23,582 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-07 23:12:25,066 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 23:12:25,196 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 118 ms. Found 7 JPA repository interfaces.
+2021-04-07 23:12:26,137 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-07 23:12:26,155 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-07 23:12:26,156 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-07 23:12:26,156 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 23:12:26,326 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-07 23:12:26,326 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2743 ms
+2021-04-07 23:12:26,707 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-07 23:12:28,705 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-07 23:12:28,708 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-07 23:12:28,766 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 23:12:28,856 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 23:12:29,100 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 23:12:29,353 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-04-07 23:12:30,822 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 23:12:30,834 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:12:31,529 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 23:12:31,705 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-07 23:12:31,835 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:12:31,862 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-07 23:12:32,041 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-07 23:12:32,106 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-07 23:12:32,107 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-07 23:12:32,135 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-07 23:12:32,318 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-07 23:12:32,732 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-07 23:12:32,737 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-07 23:12:32,741 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-07 23:12:32,748 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-07 23:12:32,755 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-07 23:12:32,763 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-07 23:12:32,767 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-07 23:12:32,770 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-07 23:12:32,775 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-07 23:12:32,780 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-07 23:12:32,793 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-07 23:12:32,804 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-07 23:12:32,811 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-07 23:12:32,815 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-07 23:12:32,832 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-07 23:12:32,838 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-07 23:12:32,846 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-07 23:12:32,850 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-07 23:12:32,858 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-07 23:12:32,861 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-07 23:12:32,866 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-07 23:12:32,872 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-07 23:12:32,894 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 9.99 seconds (JVM running for 10.753)
+2021-04-07 23:12:37,599 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 23:12:37,600 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-07 23:12:37,601 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2021-04-07 23:12:37,657 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-07 23:12:37,658 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-07 23:12:37,663 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showUser()
+2021-04-07 23:12:37,663 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showUser()
+2021-04-07 23:12:49,642 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-07 23:12:49,643 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-07 23:12:49,643 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 23:12:49,644 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showUser()
+2021-04-07 23:13:06,913 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-07 23:13:06,914 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-07 23:13:06,915 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered showUser()
+2021-04-07 23:13:06,915 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showUser()
+2021-04-07 23:13:48,884 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-07 23:13:48,885 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-07 23:13:48,887 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showUser()
+2021-04-07 23:13:48,887 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showUser()
+2021-04-07 23:32:12,662 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-8] Entered showUser()
+2021-04-07 23:32:12,662 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service loginUser()
+2021-04-07 23:32:12,779 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null
+	at com.cg.hotel.service.UserServiceImpl.loginUser(UserServiceImpl.java:80)
+	at com.cg.hotel.controller.UserController.loginUser(UserController.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 23:33:53,355 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered showUser()
+2021-04-07 23:33:53,356 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service loginUser()
+2021-04-07 23:33:53,362 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null
+	at com.cg.hotel.service.UserServiceImpl.loginUser(UserServiceImpl.java:80)
+	at com.cg.hotel.controller.UserController.loginUser(UserController.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 23:40:57,170 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered showUser()
+2021-04-07 23:40:57,170 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service loginUser()
+2021-04-07 23:40:57,175 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null
+	at com.cg.hotel.service.UserServiceImpl.loginUser(UserServiceImpl.java:80)
+	at com.cg.hotel.controller.UserController.loginUser(UserController.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 23:42:22,388 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered showUser()
+2021-04-07 23:42:22,388 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service loginUser()
+2021-04-07 23:42:22,394 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null
+	at com.cg.hotel.service.UserServiceImpl.loginUser(UserServiceImpl.java:80)
+	at com.cg.hotel.controller.UserController.loginUser(UserController.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 23:42:30,644 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showUser()
+2021-04-07 23:42:30,645 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showUser()
+2021-04-07 23:42:49,796 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showUser()
+2021-04-07 23:42:49,797 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service loginUser()
+2021-04-07 23:42:49,801 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null
+	at com.cg.hotel.service.UserServiceImpl.loginUser(UserServiceImpl.java:80)
+	at com.cg.hotel.controller.UserController.loginUser(UserController.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 23:43:55,575 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showUser()
+2021-04-07 23:43:55,575 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service loginUser()
+2021-04-07 23:44:33,219 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 23:44:33,220 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service loginUser()
+2021-04-07 23:45:08,065 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered showUser()
+2021-04-07 23:45:08,065 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service loginUser()
+2021-04-07 23:45:13,081 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-07 23:45:13,082 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-07 23:45:33,644 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered showUser()
+2021-04-07 23:45:33,644 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service loginUser()
+2021-04-07 23:47:02,036 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered showUser()
+2021-04-07 23:47:02,037 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service loginUser()
+2021-04-07 23:47:02,043 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-1] User not found by please check email password
+2021-04-07 23:47:02,162 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-1] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by please check email password]
+2021-04-07 23:47:21,036 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered showUser()
+2021-04-07 23:47:21,037 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service loginUser()
+2021-04-07 23:47:21,041 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-3] User not found by please check email password
+2021-04-07 23:47:21,042 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-3] Resolved [com.cg.hotel.exception.UserNotFoundException: User not found by please check email password]
+2021-04-07 23:47:40,556 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered showUser()
+2021-04-07 23:47:40,556 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service loginUser()
+2021-04-07 23:48:13,039 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered showUser()
+2021-04-07 23:48:13,039 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service loginUser()
+2021-04-07 23:48:13,044 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "com.cg.hotel.entites.User.getEmail()" is null
+	at com.cg.hotel.service.UserServiceImpl.loginUser(UserServiceImpl.java:80)
+	at com.cg.hotel.controller.UserController.loginUser(UserController.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 23:48:37,871 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered showUser()
+2021-04-07 23:48:37,871 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service loginUser()

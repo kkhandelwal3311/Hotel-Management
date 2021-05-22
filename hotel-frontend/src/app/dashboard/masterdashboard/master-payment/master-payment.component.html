@@ -1,0 +1,30 @@
+<h1>Payments Details : {{ allPayment.length }}</h1>
+<div class="row box">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>User Name</th>
+          <th>Payment Id</th>
+
+          <th>Booking Id</th>
+          <th>Transaction Id</th>
+
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let py of allPayment; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ py.bookingId.userId.userName }}</td>
+          <td>{{ py.paymentId }}</td>
+          <td>{{ py.bookingId.bookingId }}</td>
+          <td>{{ py.transactionId.transactionId }}</td>
+
+          <td>{{ py.bookingId.amount }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

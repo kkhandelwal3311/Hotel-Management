@@ -1,0 +1,96 @@
+<app-navbar-after></app-navbar-after>
+<div class="container-fluid">
+  <div class="row">
+    <div class="offset-1"></div>
+    <div class="left col-lg-2 col-md-12 col-sm-12">
+      <!-- drawer content -->
+      <h2 class="mt-4">Filters</h2>
+      <h5>Location</h5>
+      <form>
+        <ul type="none">
+          <li>
+            <mat-checkbox
+              class="example-margin"
+              id="Mumbai"
+              name="Mumbai"
+              value="Mumbai"
+              (change)="GetStats($event.checked, $event.source.name)"
+              ngModel
+              >Mumbai</mat-checkbox
+            >
+          </li>
+          <li>
+            <mat-checkbox
+              class="example-margin"
+              id="Pune"
+              name="Pune"
+              value="Pune"
+              (change)="GetStats($event.checked, $event.source.name)"
+              ngModel
+              >Pune</mat-checkbox
+            >
+          </li>
+          <li>
+            <mat-checkbox
+              class="example-margin"
+              id="Bangalore"
+              name="Bangalore"
+              value="Bangalore"
+              (change)="GetStats($event.checked, $event.source.name)"
+              ngModel
+              >Bangalore</mat-checkbox
+            >
+          </li>
+          <li>
+            <mat-checkbox
+              class="example-margin"
+              id="Delhi"
+              name="Delhi"
+              value="Delhi"
+              (change)="GetStats($event.checked, $event.source.name)"
+              ngModel
+              >Delhi</mat-checkbox
+            >
+          </li>
+          <li>
+            <mat-checkbox
+              class="example-margin"
+              id="Goa"
+              name="Goa"
+              value="Goa"
+              (change)="GetStats($event.checked, $event.source.name)"
+              ngModel
+              >Goa</mat-checkbox
+            >
+          </li>
+        </ul>
+      </form>
+    </div>
+    <!-- Main Content -->
+    <div class="right1 col-lg-7 col-md-12 col-sm-12">
+      <div class="row" *ngFor="let hotel of listedData;let i=index">
+        <div class="hotel-card col-lg-12 mb-2">
+          <div class="left1 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <img *ngIf="(i+1)%5 == 0" src="https://images.unsplash.com/photo-1599323237263-8990d27604b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80" alt="" />
+            <img *ngIf="(i+1)%5 == 1" src="https://images.unsplash.com/photo-1614547150983-e574bc307e1a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="" />
+            <img *ngIf="(i+1)%5 == 2" src="https://images.unsplash.com/photo-1496285705189-c290050257f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBpbWFnZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
+            <img *ngIf="(i+1)%5 == 3" src="https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="" />
+            <img *ngIf="(i+1)%5 == 4" src="https://images.unsplash.com/photo-1552873547-b88e7b2760e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" />
+          </div>
+          <div class="middle col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <h2>{{ hotel.hotelName }}</h2>
+            <h5>Location - {{ hotel.city }}</h5>
+            <h5>{{ hotel.description }}</h5>
+            <h5>5 star</h5>
+          </div>
+          <div class="right col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <h4>₹{{ hotel.avgRatePerDay }}</h4>
+            <p>All types of room available</p>
+            <button (click)="getHotelRooms(hotel.hotelId)">Select Room</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offset-1"></div>
+  </div>
+</div>

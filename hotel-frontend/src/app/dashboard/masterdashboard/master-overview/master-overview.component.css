@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card-desk {
+  /* other base styles go here */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #45ce30;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  font-family: Arial;
+  z-index: -1;
+}
+.container-fluid {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  margin-top: 30%;
+  margin-left: 25%;
+}

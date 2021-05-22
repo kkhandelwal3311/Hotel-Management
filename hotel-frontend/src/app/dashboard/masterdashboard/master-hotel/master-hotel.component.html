@@ -1,0 +1,43 @@
+<h1>Number of Hotel : {{ allHotel.length }}</h1>
+<div class="row box">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th>Hotel Id</th>
+          <th>City</th>
+          <th>Hotel Name</th>
+          <th>Address</th>
+          <th>Description</th>
+          <th>Per Day Rate</th>
+          <th>Email</th>
+          <th>Phone1</th>
+          <th>Phone2</th>
+          <th>Website</th>
+          <th>Delete Option</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let ht of allHotel; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ ht.hotelId }}</td>
+          <td>{{ ht.city }}</td>
+          <td>{{ ht.hotelName }}</td>
+          <td>{{ ht.address }}</td>
+          <td>{{ ht.description }}</td>
+          <td>{{ ht.avgRatePerDay }}</td>
+          <td>{{ ht.email }}</td>
+          <td>{{ ht.phone1 }}</td>
+          <td>{{ ht.phone2 }}</td>
+          <td>{{ ht.website }}</td>
+          <td>
+            <button (click)="deleteHotel(ht.hotelId)" class="btn btn-danger">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

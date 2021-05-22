@@ -1,0 +1,51 @@
+<!-- <p>main works!</p> -->
+<!-- <div class="container">
+  <mat-card *ngFor="let hotel of allHotelData">
+    <div class="row d-flex justify-content-between">
+      <div class="col-lg-4">
+        <img src="" alt="Image" />
+      </div>
+      <div class="col-lg-4">
+        <mat-card-title>{{ hotel.hotelName }}</mat-card-title>
+        <mat-card-content>{{ hotel.description }}</mat-card-content>
+      </div>
+      <div class="col-lg-4">
+        <mat-card-content>${{ hotel.avgRatePerDay }}</mat-card-content>
+        <mat-chip-list aria-label="Fish selection">
+          <mat-chip color="accent" selected>best</mat-chip>
+          <mat-chip color="warn" selected>5 rating</mat-chip>
+          <mat-chip color="primary" selected>delux</mat-chip>
+        </mat-chip-list>
+        <mat-card-actions>
+          <button
+            mat-button
+            color="dark"
+            (click)="getHotelRooms(hotel.hotelId)"
+          >
+            Select Rooms
+          </button>
+        </mat-card-actions>
+      </div>
+    </div>
+  </mat-card>
+</div> -->
+<!-- ================================================  -->
+
+<div class="row" *ngFor="let hotel of allHotelData">
+  <div class="hotel-card col-lg-12">
+    <div class="left col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+      <img src="../../../../../assets/images/room1.jpg" alt="" />
+    </div>
+    <div class="middle col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+      <h2>{{ hotel.hotelName }}</h2>
+      <h5>Location - {{hotel.address}}</h5>
+      <h5>{{ hotel.description }}</h5>
+      <h5>5 star</h5>
+    </div>
+    <div class="right col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+      <h4>₹{{ hotel.avgRatePerDay }}</h4>
+      <p>All types of room available</p>
+      <button (click)="getHotelRooms(hotel.hotelId)">Select Room</button>
+    </div>
+  </div>
+</div>

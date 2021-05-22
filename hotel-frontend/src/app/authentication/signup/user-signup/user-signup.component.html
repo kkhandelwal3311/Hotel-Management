@@ -1,0 +1,137 @@
+<div class="main">
+  <app-brand-navbar></app-brand-navbar>
+  <form class="box" name="form" #f="ngForm" (ngSubmit)="onSubmit()">
+    <h1>User Registration</h1>
+    <div class="form-group">
+      <label for="userName">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="userName"
+        name="userName"
+        placeholder="Enter your name"
+        [(ngModel)]="userData.userName"
+        #name="ngModel"
+        [ngClass]="{
+          'is-invalid': name.invalid && (name.dirty || name.touched)
+        }"
+        required
+      />
+      <div
+        *ngIf="name.invalid && (name.dirty || name.touched)"
+        class="invalid-feedback"
+      >
+        <p *ngIf="name.errors?.required">Name is required.</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        [(ngModel)]="userData.email"
+        #email="ngModel"
+        [ngClass]="{
+          'is-invalid': email.invalid && (email.dirty || email.touched)
+        }"
+        required
+      />
+      <div
+        *ngIf="email.invalid && (email.dirty || email.touched)"
+        class="invalid-feedback"
+      >
+        <p *ngIf="email.errors?.required">Email is required.</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        name="password"
+        placeholder="Enter password"
+        [(ngModel)]="userData.password"
+        [ngClass]="{
+          'is-invalid': pwd.invalid && (pwd.dirty || pwd.touched)
+        }"
+        #pwd="ngModel"
+        required
+        password
+      />
+      <div
+        *ngIf="pwd.invalid && (pwd.dirty || pwd.touched)"
+        class="invalid-feedback"
+      >
+        <p *ngIf="pwd.errors?.required">Password is required.</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="role">Role</label>
+      <input
+        type="text"
+        class="form-control"
+        id="role"
+        name="role"
+        placeholder="Enter your role"
+        [(ngModel)]="userData.role"
+      />
+    </div>
+    <div class="form-group">
+      <label for="mobile">Mobile</label>
+      <input
+        type="text"
+        class="form-control"
+        id="mobile"
+        name="mobile"
+        placeholder="Enter your mobile"
+        [(ngModel)]="userData.mobile"
+        [ngClass]="{
+          'is-invalid': mobNum.invalid && (mobNum.dirty || mobNum.touched)
+        }"
+        #mobNum="ngModel"
+        required
+      />
+      <div
+        *ngIf="mobNum.invalid && (mobNum.dirty || mobNum.touched)"
+        class="invalid-feedback"
+      >
+        <p *ngIf="mobNum.errors?.required">Mobile Number is required.</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input
+        type="text"
+        class="form-control"
+        id="address"
+        name="address"
+        placeholder="Enter your address"
+        [(ngModel)]="userData.address"
+        [ngClass]="{
+          'is-invalid': address.invalid && (address.dirty || address.touched)
+        }"
+        #address="ngModel"
+        required
+      />
+      <div
+        *ngIf="address.invalid && (address.dirty || address.touched)"
+        class="invalid-feedback"
+      >
+        <p *ngIf="address.errors?.required">Hotel Address is required.</p>
+      </div>
+    </div>
+    <pre></pre>
+    <button type="submit" class="btn">Register</button>
+    <pre></pre>
+    <div class="form-group" style="text-align: center">
+      <label for="signup"
+        >Already have an account?
+        <a [routerLink]="['/user-login']">Login</a></label
+      >
+    </div>
+  </form>
+</div>

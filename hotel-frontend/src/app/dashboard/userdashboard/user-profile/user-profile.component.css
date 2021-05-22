@@ -1,0 +1,53 @@
+.main {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  background-image: url("../../../../assets/images/bg2.jpg");
+  background-size: cover;
+}
+
+.box {
+  margin: auto;
+  width: 90%;
+  max-width: 380px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.384);
+}
+
+.btn {
+  width: 90%;
+  margin: auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: white !important;
+  color: black;
+  height: 40px;
+  border: 2px solid #0eb550 !important;
+}
+
+.btn-inverse {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important;
+}
+
+.btn:hover {
+  background-color: #0eb550 !important;
+  color: white !important;
+  /* border: 1px solid black; */
+}
+
+.btn-inverse:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(12, 29, 29);
+  margin-bottom: 22px;
+  margin-top: 15px;
+}

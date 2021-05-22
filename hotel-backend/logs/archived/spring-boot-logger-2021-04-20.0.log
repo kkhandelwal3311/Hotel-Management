@@ -1,0 +1,1133 @@
+2021-04-20 00:08:22,790 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-04-20 00:08:22,834 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-HSJMU2S with PID 1752 (C:\Users\kkhan\git\hotelmanagementrepo\hotel\bin\main started by kkhan in C:\Users\kkhan\git\hotelmanagementrepo\hotel)
+2021-04-20 00:08:22,836 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.6
+2021-04-20 00:08:22,838 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-20 00:08:23,047 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\kkhan\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-04-20 00:08:23,048 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-20 00:08:23,050 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-20 00:08:25,943 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-20 00:08:26,328 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 346 ms. Found 7 JPA repository interfaces.
+2021-04-20 00:08:28,407 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-20 00:08:28,448 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-20 00:08:28,451 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-20 00:08:28,452 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 00:08:28,849 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-20 00:08:28,850 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5795 ms
+2021-04-20 00:08:29,375 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-20 00:08:29,918 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-20 00:08:29,927 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-20 00:08:30,150 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-20 00:08:30,483 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-20 00:08:31,103 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-20 00:08:31,428 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-04-20 00:08:33,893 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-20 00:08:33,919 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-20 00:08:34,971 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-04-20 00:08:35,177 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-20 00:08:36,472 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-20 00:08:36,765 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44bbaa5a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ef6df60, org.springframework.security.web.header.HeaderWriterFilter@3b260f69, org.springframework.web.filter.CorsFilter@7ac7a0ab, org.springframework.security.web.authentication.logout.LogoutFilter@37515e5c, com.cg.hotel.config.JwtRequestFilter@6b76de34, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@238f8e88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@728897dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64548d20, org.springframework.security.web.session.SessionManagementFilter@47d8694a, org.springframework.security.web.access.ExceptionTranslationFilter@40083c2b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74b056b1]
+2021-04-20 00:08:36,999 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 00:08:37,087 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-20 00:08:37,435 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-20 00:08:37,486 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-20 00:08:37,487 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-20 00:08:37,528 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-20 00:08:37,919 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-20 00:08:38,958 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-20 00:08:38,974 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-20 00:08:38,988 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-20 00:08:39,007 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-20 00:08:39,023 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-20 00:08:39,049 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-20 00:08:39,069 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_1
+2021-04-20 00:08:39,089 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-20 00:08:39,101 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-20 00:08:39,118 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-20 00:08:39,134 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-20 00:08:39,174 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-20 00:08:39,212 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-20 00:08:39,225 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-20 00:08:39,239 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-20 00:08:39,301 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-20 00:08:39,311 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-20 00:08:39,321 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-20 00:08:39,333 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-20 00:08:39,345 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_2
+2021-04-20 00:08:39,366 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-20 00:08:39,372 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-20 00:08:39,383 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-20 00:08:39,393 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-20 00:08:39,437 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 18.232 seconds (JVM running for 20.103)
+2021-04-20 00:08:39,440 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-04-20 00:08:39,447 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-04-20 00:08:49,525 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-20 00:08:49,526 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-20 00:08:49,529 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 2 ms
+2021-04-20 00:08:50,711 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service loginUserJwt()
+2021-04-20 00:08:51,035 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 00:08:51,036 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 00:09:16,601 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-6] Entered showAvailableHotelRoom()
+2021-04-20 00:09:16,602 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-6] Entered service showAvailableHotelRoom()
+2021-04-20 00:10:39,197 INFO com.cg.hotel.controller.TransactionController [http-nio-8090-exec-9] Entered addTransaction()
+2021-04-20 00:10:39,199 INFO com.cg.hotel.service.TransactionServiceImpl [http-nio-8090-exec-9] Entered service addTransaction()
+2021-04-20 00:10:39,404 INFO com.cg.hotel.controller.BookingDetailsController [http-nio-8090-exec-1] Entered addBookingDetails()
+2021-04-20 00:10:39,406 INFO com.cg.hotel.service.BookingDetailsServiceImpl [http-nio-8090-exec-1] Entered service addBookingDetails()
+2021-04-20 00:10:39,593 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-2] Entered addPayment()
+2021-04-20 00:10:39,595 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-2] Entered service addPayment()
+2021-04-20 00:10:39,702 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-4] Entered showPaymentDetails()
+2021-04-20 00:10:39,703 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 00:13:12,700 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 00:13:12,701 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 02:12:13,904 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 02:12:13,912 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 08:26:11,474 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-04-20 08:26:11,522 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-HSJMU2S with PID 3448 (C:\Users\kkhan\git\hotelmanagementrepo\hotel\bin\main started by kkhan in C:\Users\kkhan\git\hotelmanagementrepo\hotel)
+2021-04-20 08:26:11,524 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.6
+2021-04-20 08:26:11,525 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-20 08:26:11,674 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\kkhan\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-04-20 08:26:11,676 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-20 08:26:11,677 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-20 08:26:14,803 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-20 08:26:15,120 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 275 ms. Found 7 JPA repository interfaces.
+2021-04-20 08:26:17,348 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-20 08:26:17,393 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-20 08:26:17,395 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-20 08:26:17,397 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 08:26:17,762 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-20 08:26:17,763 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6084 ms
+2021-04-20 08:26:18,235 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-20 08:26:18,784 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-20 08:26:18,791 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-20 08:26:18,965 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-20 08:26:19,243 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-20 08:26:19,691 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-20 08:26:20,087 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-04-20 08:26:22,251 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-20 08:26:22,277 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-20 08:26:23,257 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-04-20 08:26:23,491 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-20 08:26:25,557 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-20 08:26:25,756 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a809532, org.springframework.security.web.context.SecurityContextPersistenceFilter@14857152, org.springframework.security.web.header.HeaderWriterFilter@6db03245, org.springframework.web.filter.CorsFilter@3d628f55, org.springframework.security.web.authentication.logout.LogoutFilter@22923499, com.cg.hotel.config.JwtRequestFilter@2f926a1d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47d8694a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2aa822ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d638930, org.springframework.security.web.session.SessionManagementFilter@7a7bc91b, org.springframework.security.web.access.ExceptionTranslationFilter@4e010373, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d2323c5]
+2021-04-20 08:26:25,885 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 08:26:25,933 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-20 08:26:26,274 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-20 08:26:26,334 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-20 08:26:26,336 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-20 08:26:26,394 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-20 08:26:26,837 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-20 08:26:27,997 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-20 08:26:28,016 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-20 08:26:28,027 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-20 08:26:28,045 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-20 08:26:28,062 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-20 08:26:28,086 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-20 08:26:28,103 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_1
+2021-04-20 08:26:28,117 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-20 08:26:28,126 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-20 08:26:28,137 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-20 08:26:28,149 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-20 08:26:28,175 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-20 08:26:28,212 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-20 08:26:28,228 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-20 08:26:28,235 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-20 08:26:28,293 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-20 08:26:28,307 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-20 08:26:28,325 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-20 08:26:28,343 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-20 08:26:28,352 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_2
+2021-04-20 08:26:28,374 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-20 08:26:28,379 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-20 08:26:28,386 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-20 08:26:28,395 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-20 08:26:28,461 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 18.212 seconds (JVM running for 19.838)
+2021-04-20 08:26:28,466 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-04-20 08:26:28,474 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-04-20 08:27:01,521 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-20 08:27:01,522 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-20 08:27:01,525 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 2 ms
+2021-04-20 08:27:02,444 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service loginUserJwt()
+2021-04-20 08:27:02,680 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-4] Entered showAllHotels()
+2021-04-20 08:27:02,682 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-4] Entered service showAllHotels()
+2021-04-20 08:27:37,869 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered userBooking()
+2021-04-20 08:27:37,872 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service userBooking()
+2021-04-20 08:27:37,987 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-7] User has not done Booking
+2021-04-20 08:27:38,007 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-7] Resolved [com.cg.hotel.exception.BookingDetailsNotFoundException: User has not done Booking]
+2021-04-20 08:28:04,396 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 08:28:04,397 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 08:28:05,208 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered userBooking()
+2021-04-20 08:28:05,210 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service userBooking()
+2021-04-20 08:28:05,231 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-10] User has not done Booking
+2021-04-20 08:28:05,234 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-10] Resolved [com.cg.hotel.exception.BookingDetailsNotFoundException: User has not done Booking]
+2021-04-20 08:29:25,132 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered userBooking()
+2021-04-20 08:29:25,133 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service userBooking()
+2021-04-20 08:29:25,154 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-2] User has not done Booking
+2021-04-20 08:29:25,157 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-2] Resolved [com.cg.hotel.exception.BookingDetailsNotFoundException: User has not done Booking]
+2021-04-20 08:29:25,890 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 08:29:25,891 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 08:29:54,369 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-5] Entered showAvailableHotelRoom()
+2021-04-20 08:29:54,371 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-5] Entered service showAvailableHotelRoom()
+2021-04-20 08:30:40,650 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 08:30:40,651 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 08:46:47,989 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 08:46:47,991 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 08:46:47,992 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 08:46:47,994 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 08:46:48,000 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 08:46:48,002 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 08:46:53,952 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 08:46:53,953 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 08:46:55,294 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 08:46:55,295 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 08:46:56,521 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllPayment()
+2021-04-20 08:46:56,523 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 08:46:58,645 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 08:46:58,647 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 08:46:58,648 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 08:46:58,648 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 08:46:58,676 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 08:46:58,677 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 08:47:24,240 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 08:47:24,241 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 08:47:38,680 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 08:47:38,681 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 08:47:50,656 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllPayment()
+2021-04-20 08:47:50,657 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-3] Entered service showAllPayments()
+2021-04-20 08:47:59,637 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllUsers()
+2021-04-20 08:47:59,639 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showAllUsers()
+2021-04-20 08:47:59,657 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 08:47:59,659 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 08:47:59,669 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 08:47:59,670 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 08:48:08,341 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-20 08:48:08,342 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-20 08:48:08,345 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllPayment()
+2021-04-20 08:48:08,346 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-2] Entered service showAllPayments()
+2021-04-20 08:48:08,357 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 08:48:08,359 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 08:48:10,970 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-20 08:48:10,975 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-20 08:48:10,983 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllPayment()
+2021-04-20 08:48:10,985 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-04-20 08:48:10,993 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 08:48:10,995 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 08:48:13,806 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 08:48:13,809 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 08:48:13,812 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 08:48:13,817 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllUsers()
+2021-04-20 08:48:13,819 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showAllUsers()
+2021-04-20 08:48:13,821 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 08:48:15,661 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-20 08:48:15,662 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-20 08:48:16,650 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 08:48:16,652 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 08:48:16,652 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-20 08:48:16,653 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-20 08:48:16,671 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllPayment()
+2021-04-20 08:48:16,672 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-2] Entered service showAllPayments()
+2021-04-20 08:48:18,475 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 08:48:18,478 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 08:48:18,482 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllHotels()
+2021-04-20 08:48:18,483 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-4] Entered service showAllHotels()
+2021-04-20 08:48:18,493 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 08:48:18,494 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 09:12:08,171 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 09:12:08,174 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 09:12:08,182 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-20 09:12:08,184 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllPayment()
+2021-04-20 09:12:08,183 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-20 09:12:08,185 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-3] Entered service showAllPayments()
+2021-04-20 09:12:16,515 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 09:12:16,516 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 09:12:18,900 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllHotels()
+2021-04-20 09:12:18,901 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-4] Entered service showAllHotels()
+2021-04-20 09:12:20,782 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 09:12:20,784 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 09:12:20,793 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllPayment()
+2021-04-20 09:12:20,794 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 09:12:20,800 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllUsers()
+2021-04-20 09:12:20,801 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showAllUsers()
+2021-04-20 09:12:22,052 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 09:12:22,053 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 09:12:25,034 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 09:12:25,035 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 09:12:26,516 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllPayment()
+2021-04-20 09:12:26,531 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-1] Entered service showAllPayments()
+2021-04-20 09:12:42,548 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 09:12:42,549 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 09:12:51,828 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 09:12:51,829 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 09:12:56,008 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 09:12:56,010 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 09:14:53,335 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllHotels()
+2021-04-20 09:14:53,339 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-1] Entered service showAllHotels()
+2021-04-20 09:14:53,339 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllPayment()
+2021-04-20 09:14:53,340 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-2] Entered service showAllPayments()
+2021-04-20 09:14:53,343 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 09:14:53,344 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 09:14:55,823 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllUsers()
+2021-04-20 09:14:55,824 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showAllUsers()
+2021-04-20 09:14:56,970 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 09:14:56,972 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 09:15:03,627 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 09:15:03,628 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 09:15:45,551 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 09:15:45,567 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 09:15:45,571 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 09:15:45,574 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllPayment()
+2021-04-20 09:15:45,575 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 09:15:45,572 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 09:15:54,050 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 09:15:54,051 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 09:15:55,805 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 09:15:55,807 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 09:15:57,031 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 09:15:57,033 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 09:17:02,057 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-9] User Forbidden
+2021-04-20 09:17:02,063 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-9] Resolved [com.cg.hotel.exception.UserNotFoundException: User Forbidden]
+2021-04-20 09:17:06,367 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service loginUserJwt()
+2021-04-20 09:17:06,463 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 09:17:06,464 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 09:17:16,877 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-4] Entered userBooking()
+2021-04-20 09:17:16,879 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service userBooking()
+2021-04-20 09:17:28,350 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 09:17:28,352 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 09:17:58,242 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered userBooking()
+2021-04-20 09:17:58,244 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service userBooking()
+2021-04-20 09:18:01,226 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 09:18:01,229 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 09:18:18,703 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered userBooking()
+2021-04-20 09:18:18,705 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service userBooking()
+2021-04-20 09:18:22,525 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 09:18:22,527 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 09:18:39,684 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-8] Entered showAvailableHotelRoom()
+2021-04-20 09:18:39,685 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-8] Entered service showAvailableHotelRoom()
+2021-04-20 09:20:43,727 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-7] Entered showHotelRoom()
+2021-04-20 09:20:43,728 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-7] Entered service showHotelRoom()
+2021-04-20 09:20:43,759 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-7] No Rooms found in this hotel
+2021-04-20 09:20:43,763 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-7] Resolved [com.cg.hotel.exception.RoomNotFoundException: No Rooms found in this hotel]
+2021-04-20 09:21:05,335 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-1] Entered addRoom()
+2021-04-20 09:21:05,336 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-1] Entered service addRoom()
+2021-04-20 09:21:07,107 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-9] Entered showHotelRoom()
+2021-04-20 09:21:07,110 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-9] Entered service showHotelRoom()
+2021-04-20 09:21:54,502 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-5] Entered showHotelRoom()
+2021-04-20 09:21:54,503 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-5] Entered service showHotelRoom()
+2021-04-20 09:29:43,212 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service loginUserJwt()
+2021-04-20 09:29:43,277 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 09:29:43,278 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 09:29:57,223 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 09:29:57,225 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 09:30:18,726 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered userBooking()
+2021-04-20 09:30:18,727 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service userBooking()
+2021-04-20 09:30:18,773 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-9] User has not done Booking
+2021-04-20 09:30:18,777 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-9] Resolved [com.cg.hotel.exception.BookingDetailsNotFoundException: User has not done Booking]
+2021-04-20 09:30:20,413 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 09:30:20,415 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 09:30:40,803 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-3] Entered showAvailableHotelRoom()
+2021-04-20 09:30:40,804 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-3] Entered service showAvailableHotelRoom()
+2021-04-20 09:30:49,702 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 09:30:49,705 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 09:30:59,064 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-6] Entered showAvailableHotelRoom()
+2021-04-20 09:30:59,066 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-6] Entered service showAvailableHotelRoom()
+2021-04-20 09:30:59,120 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-6] No Rooms available in this hotel
+2021-04-20 09:30:59,123 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-6] Resolved [com.cg.hotel.exception.RoomNotFoundException: No Rooms available in this hotel]
+2021-04-20 09:31:01,566 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 09:31:01,568 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 09:31:11,172 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-1] Entered showAvailableHotelRoom()
+2021-04-20 09:31:11,173 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-1] Entered service showAvailableHotelRoom()
+2021-04-20 09:36:33,520 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 09:36:33,521 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 09:36:45,955 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-8] Entered showAvailableHotelRoom()
+2021-04-20 09:36:45,957 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-8] Entered service showAvailableHotelRoom()
+2021-04-20 09:37:11,595 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-3] Entered showAvailableHotelRoom()
+2021-04-20 09:37:11,597 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-3] Entered service showAvailableHotelRoom()
+2021-04-20 09:44:14,419 INFO com.cg.hotel.controller.TransactionController [http-nio-8090-exec-6] Entered addTransaction()
+2021-04-20 09:44:14,420 INFO com.cg.hotel.service.TransactionServiceImpl [http-nio-8090-exec-6] Entered service addTransaction()
+2021-04-20 09:44:14,545 INFO com.cg.hotel.controller.BookingDetailsController [http-nio-8090-exec-10] Entered addBookingDetails()
+2021-04-20 09:44:14,546 INFO com.cg.hotel.service.BookingDetailsServiceImpl [http-nio-8090-exec-10] Entered service addBookingDetails()
+2021-04-20 09:44:14,728 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-9] Entered addPayment()
+2021-04-20 09:44:14,729 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-9] Entered service addPayment()
+2021-04-20 09:44:14,823 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-8] Entered showPaymentDetails()
+2021-04-20 09:44:14,824 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 09:48:47,085 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered userBooking()
+2021-04-20 09:48:47,087 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service userBooking()
+2021-04-20 09:49:38,717 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 09:49:38,719 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 09:52:52,056 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered userBooking()
+2021-04-20 09:52:52,061 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service userBooking()
+2021-04-20 09:56:43,815 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service loginUserJwt()
+2021-04-20 09:56:43,869 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 09:56:43,871 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 09:57:06,423 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-3] Entered showAvailableHotelRoom()
+2021-04-20 09:57:06,425 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-3] Entered service showAvailableHotelRoom()
+2021-04-20 09:57:11,713 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-5] Entered showAvailableHotelRoom()
+2021-04-20 09:57:11,715 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-5] Entered service showAvailableHotelRoom()
+2021-04-20 09:57:48,181 INFO com.cg.hotel.controller.TransactionController [http-nio-8090-exec-4] Entered addTransaction()
+2021-04-20 09:57:48,183 INFO com.cg.hotel.service.TransactionServiceImpl [http-nio-8090-exec-4] Entered service addTransaction()
+2021-04-20 09:57:48,233 INFO com.cg.hotel.controller.BookingDetailsController [http-nio-8090-exec-6] Entered addBookingDetails()
+2021-04-20 09:57:48,234 INFO com.cg.hotel.service.BookingDetailsServiceImpl [http-nio-8090-exec-6] Entered service addBookingDetails()
+2021-04-20 09:57:48,328 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-7] Entered addPayment()
+2021-04-20 09:57:48,329 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-7] Entered service addPayment()
+2021-04-20 09:57:48,380 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-1] Entered showPaymentDetails()
+2021-04-20 09:57:48,381 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-1] Entered service showAllPayments()
+2021-04-20 09:58:18,754 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered userBooking()
+2021-04-20 09:58:18,755 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service userBooking()
+2021-04-20 10:00:27,805 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered userBooking()
+2021-04-20 10:00:27,808 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service userBooking()
+2021-04-20 10:00:40,749 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-4] Entered showAllHotels()
+2021-04-20 10:00:40,750 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-4] Entered service showAllHotels()
+2021-04-20 10:00:58,247 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-10] Entered showAvailableHotelRoom()
+2021-04-20 10:00:58,248 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-10] Entered service showAvailableHotelRoom()
+2021-04-20 10:01:28,761 INFO com.cg.hotel.controller.TransactionController [http-nio-8090-exec-9] Entered addTransaction()
+2021-04-20 10:01:28,763 INFO com.cg.hotel.service.TransactionServiceImpl [http-nio-8090-exec-9] Entered service addTransaction()
+2021-04-20 10:01:28,794 INFO com.cg.hotel.controller.BookingDetailsController [http-nio-8090-exec-2] Entered addBookingDetails()
+2021-04-20 10:01:28,795 INFO com.cg.hotel.service.BookingDetailsServiceImpl [http-nio-8090-exec-2] Entered service addBookingDetails()
+2021-04-20 10:01:28,878 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-8] Entered addPayment()
+2021-04-20 10:01:28,879 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service addPayment()
+2021-04-20 10:01:28,942 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-5] Entered showPaymentDetails()
+2021-04-20 10:01:28,943 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-04-20 10:03:56,898 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-6] Entered addPayment()
+2021-04-20 10:03:56,900 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service addPayment()
+2021-04-20 10:03:56,965 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-10] Entered showPaymentDetails()
+2021-04-20 10:03:56,967 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 10:04:41,646 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-9] Entered userBooking()
+2021-04-20 10:04:41,647 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service userBooking()
+2021-04-20 10:08:45,688 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 10:08:45,690 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 10:08:55,567 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-5] Entered userBooking()
+2021-04-20 10:08:55,569 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service userBooking()
+2021-04-20 10:09:10,106 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-7] Entered updateUser()
+2021-04-20 10:09:10,108 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service updateUser()
+2021-04-20 10:09:14,158 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered updateUser()
+2021-04-20 10:09:14,159 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service updateUser()
+2021-04-20 10:09:40,924 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllUsers()
+2021-04-20 10:09:40,927 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showAllUsers()
+2021-04-20 10:09:40,936 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 10:09:40,938 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 10:09:40,944 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 10:09:40,946 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 10:09:52,019 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 10:09:52,022 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 10:10:04,846 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 10:10:04,847 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 10:10:09,466 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 10:10:09,467 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 10:10:11,316 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllHotels()
+2021-04-20 10:10:11,317 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-4] Entered service showAllHotels()
+2021-04-20 10:10:12,474 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllPayment()
+2021-04-20 10:10:12,475 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-7] Entered service showAllPayments()
+2021-04-20 10:10:27,020 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 10:10:27,021 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 10:10:27,527 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-20 10:10:27,527 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-20 10:10:31,300 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 10:10:31,301 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 10:10:31,309 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllPayment()
+2021-04-20 10:10:31,311 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-04-20 10:10:31,319 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 10:10:31,321 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 10:12:12,112 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllUsers()
+2021-04-20 10:12:12,113 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showAllUsers()
+2021-04-20 10:12:12,161 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 10:12:12,170 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 10:12:12,190 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllPayment()
+2021-04-20 10:12:12,192 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 10:12:16,523 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-20 10:12:16,525 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-20 10:12:17,730 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 10:12:17,731 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 10:12:18,693 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllPayment()
+2021-04-20 10:12:18,694 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-2] Entered service showAllPayments()
+2021-04-20 10:12:20,466 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllHotels()
+2021-04-20 10:12:20,468 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-4] Entered service showAllHotels()
+2021-04-20 10:12:20,468 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 10:12:20,468 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 10:12:20,469 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 10:12:20,469 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 10:12:32,137 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 10:12:32,139 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 10:12:32,154 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 10:12:32,155 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 10:12:32,156 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllPayment()
+2021-04-20 10:12:32,158 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-7] Entered service showAllPayments()
+2021-04-20 10:12:40,002 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 10:12:40,003 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 10:12:41,607 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 10:12:41,608 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 10:12:43,224 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllPayment()
+2021-04-20 10:12:43,226 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-1] Entered service showAllPayments()
+2021-04-20 10:12:57,767 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 10:12:57,768 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 10:13:00,005 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 10:13:00,006 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 10:13:01,067 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllPayment()
+2021-04-20 10:13:01,068 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-04-20 10:13:05,874 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllUsers()
+2021-04-20 10:13:05,876 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showAllUsers()
+2021-04-20 10:13:12,721 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 10:13:12,723 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 10:13:18,169 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllPayment()
+2021-04-20 10:13:18,170 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 10:13:28,774 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 10:13:28,775 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 10:13:30,454 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 10:13:30,455 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 10:13:30,456 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllPayment()
+2021-04-20 10:13:30,457 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-7] Entered service showAllPayments()
+2021-04-20 10:13:30,458 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 10:13:30,459 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 10:15:00,387 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-20 10:15:00,388 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-20 10:15:01,421 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 10:15:01,422 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 10:15:02,461 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllPayment()
+2021-04-20 10:15:02,462 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 10:15:04,230 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 10:15:04,231 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 10:15:04,234 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllPayment()
+2021-04-20 10:15:04,236 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-7] Entered service showAllPayments()
+2021-04-20 10:15:04,238 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 10:15:04,238 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 10:15:37,219 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-20 10:15:37,221 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-20 10:15:37,226 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 10:15:37,227 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 10:15:37,228 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllPayment()
+2021-04-20 10:15:37,230 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 10:15:54,610 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 10:15:54,611 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 10:15:54,612 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 10:15:54,612 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 10:15:54,616 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 10:15:54,617 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 10:16:01,532 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 10:16:01,533 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 10:16:02,476 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 10:16:02,477 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 10:16:03,313 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllPayment()
+2021-04-20 10:16:03,314 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-04-20 10:16:05,303 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllPayment()
+2021-04-20 10:16:05,304 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-3] Entered service showAllPayments()
+2021-04-20 10:16:05,305 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 10:16:05,306 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 10:16:05,308 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-20 10:16:05,309 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-20 10:16:16,588 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 10:16:16,588 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 10:16:16,589 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 10:16:16,589 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 10:16:16,598 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllPayment()
+2021-04-20 10:16:16,599 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-2] Entered service showAllPayments()
+2021-04-20 10:16:23,520 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 10:16:23,521 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 10:16:42,654 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllHotels()
+2021-04-20 10:16:42,655 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-1] Entered service showAllHotels()
+2021-04-20 10:16:44,084 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 10:16:44,085 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 10:16:45,611 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 10:16:45,612 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 10:16:45,612 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 10:16:45,612 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 10:16:45,613 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllPayment()
+2021-04-20 10:16:45,614 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-2] Entered service showAllPayments()
+2021-04-20 10:16:48,499 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 10:16:48,500 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 10:17:16,021 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 10:17:16,022 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 10:17:39,871 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 10:17:39,873 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 10:17:41,198 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 10:17:41,200 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 10:17:51,668 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 10:17:51,670 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 10:17:58,579 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllUsers()
+2021-04-20 10:17:58,582 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showAllUsers()
+2021-04-20 10:17:58,604 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 10:17:58,606 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 10:17:58,610 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllPayment()
+2021-04-20 10:17:58,612 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-3] Entered service showAllPayments()
+2021-04-20 10:18:02,183 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllPayment()
+2021-04-20 10:18:02,187 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-9] Entered service showAllPayments()
+2021-04-20 10:18:14,324 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 10:18:14,326 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 10:18:14,327 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 10:18:14,329 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 10:18:14,338 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 10:18:14,339 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 10:18:33,327 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllUsers()
+2021-04-20 10:18:33,329 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showAllUsers()
+2021-04-20 10:18:38,778 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllHotels()
+2021-04-20 10:18:38,780 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-1] Entered service showAllHotels()
+2021-04-20 10:18:42,340 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllPayment()
+2021-04-20 10:18:42,341 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 10:20:52,689 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllUsers()
+2021-04-20 10:20:52,691 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showAllUsers()
+2021-04-20 10:20:52,697 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 10:20:52,699 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 10:20:52,703 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllPayment()
+2021-04-20 10:20:52,705 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 10:22:04,173 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 10:22:04,174 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 10:22:19,232 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 10:22:19,234 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 10:23:35,626 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllPayment()
+2021-04-20 10:23:35,628 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 10:23:35,629 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 10:23:35,630 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 10:23:35,647 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllUsers()
+2021-04-20 10:23:35,648 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showAllUsers()
+2021-04-20 10:23:37,057 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 10:23:37,062 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 10:23:38,475 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 10:23:38,476 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 10:23:58,623 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 10:23:58,624 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 10:23:58,628 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 10:23:58,630 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 10:23:58,630 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 10:23:58,631 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 10:24:27,695 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 10:24:27,696 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 10:24:27,715 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 10:24:27,717 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 10:24:27,726 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllPayment()
+2021-04-20 10:24:27,727 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-2] Entered service showAllPayments()
+2021-04-20 10:24:36,106 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 10:24:36,108 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 10:24:45,222 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 10:24:45,224 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 10:24:45,222 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-20 10:24:45,225 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-20 10:24:45,233 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllHotels()
+2021-04-20 10:24:45,234 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-1] Entered service showAllHotels()
+2021-04-20 10:25:24,984 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 10:25:24,986 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 10:25:25,603 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 10:25:25,604 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 10:25:26,174 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllPayment()
+2021-04-20 10:25:26,175 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-3] Entered service showAllPayments()
+2021-04-20 10:25:34,925 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-20 10:25:34,927 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-20 10:25:35,541 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllHotels()
+2021-04-20 10:25:35,543 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-1] Entered service showAllHotels()
+2021-04-20 10:25:36,169 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 10:25:36,171 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 10:25:38,027 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 10:25:38,029 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 10:25:38,034 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllPayment()
+2021-04-20 10:25:38,034 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 10:25:38,036 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-04-20 10:25:38,036 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 11:04:45,955 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-04-20 11:04:45,998 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-HSJMU2S with PID 21120 (C:\Users\kkhan\git\hotelmanagementrepo\hotel\bin\main started by kkhan in C:\Users\kkhan\git\hotelmanagementrepo\hotel)
+2021-04-20 11:04:45,999 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.6
+2021-04-20 11:04:46,000 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-20 11:04:46,127 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\kkhan\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-04-20 11:04:46,128 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-20 11:04:46,129 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-20 11:04:48,691 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-20 11:04:48,955 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 231 ms. Found 7 JPA repository interfaces.
+2021-04-20 11:04:50,690 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-20 11:04:50,719 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-20 11:04:50,721 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-20 11:04:50,722 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 11:04:51,032 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-20 11:04:51,032 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4901 ms
+2021-04-20 11:04:51,520 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-20 11:04:52,147 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-20 11:04:52,153 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-20 11:04:52,275 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-20 11:04:52,457 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-20 11:04:52,906 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-20 11:04:53,255 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-04-20 11:04:55,066 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-20 11:04:55,094 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-20 11:04:55,736 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-04-20 11:04:55,857 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-20 11:04:56,960 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-20 11:04:57,122 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4715ccbd, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d232278, org.springframework.security.web.header.HeaderWriterFilter@21af8b0, org.springframework.web.filter.CorsFilter@417c09b2, org.springframework.security.web.authentication.logout.LogoutFilter@510587ae, com.cg.hotel.config.JwtRequestFilter@5e334454, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3811aa80, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dc0b562, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31e83598, org.springframework.security.web.session.SessionManagementFilter@1b24be74, org.springframework.security.web.access.ExceptionTranslationFilter@7644535d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3eedfacf]
+2021-04-20 11:04:57,269 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 11:04:57,304 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-20 11:04:57,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-20 11:04:57,639 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-20 11:04:57,641 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-20 11:04:57,698 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-20 11:04:58,042 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-20 11:04:58,705 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-20 11:04:58,716 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-20 11:04:58,723 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-20 11:04:58,734 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-20 11:04:58,744 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-20 11:04:58,760 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-20 11:04:58,770 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_1
+2021-04-20 11:04:58,780 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-20 11:04:58,785 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-20 11:04:58,793 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-20 11:04:58,803 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-20 11:04:58,825 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-20 11:04:58,875 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-20 11:04:58,889 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-20 11:04:58,900 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-20 11:04:58,980 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-20 11:04:58,997 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-20 11:04:59,018 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-20 11:04:59,046 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-20 11:04:59,067 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_2
+2021-04-20 11:04:59,119 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-20 11:04:59,127 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-20 11:04:59,147 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-20 11:04:59,161 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-20 11:04:59,213 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 14.324 seconds (JVM running for 15.643)
+2021-04-20 11:04:59,217 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-04-20 11:04:59,223 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-04-20 11:06:14,955 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-20 11:06:14,956 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-20 11:06:14,958 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 2 ms
+2021-04-20 11:06:15,666 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 11:06:15,666 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 11:06:32,372 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 11:06:32,373 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 11:06:49,000 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllPayment()
+2021-04-20 11:06:49,001 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-9] Entered service showAllPayments()
+2021-04-20 11:08:18,339 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 11:08:18,340 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 11:09:44,363 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllHotels()
+2021-04-20 11:09:44,364 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-4] Entered service showAllHotels()
+2021-04-20 11:09:50,135 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllPayment()
+2021-04-20 11:09:50,136 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-6] Entered service showAllPayments()
+2021-04-20 11:10:26,091 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 11:10:26,092 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 11:10:27,184 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 11:10:27,185 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 11:10:28,065 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllPayment()
+2021-04-20 11:10:28,066 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 11:10:40,136 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 11:10:40,137 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 11:15:43,635 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 11:15:43,637 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 11:15:47,398 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 11:15:47,398 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 11:15:48,633 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllPayment()
+2021-04-20 11:15:48,633 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 11:15:49,967 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 11:15:49,968 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 11:15:56,103 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 11:15:56,104 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 11:23:24,159 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service loginUserJwt()
+2021-04-20 11:23:24,220 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 11:23:24,220 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 11:23:45,336 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-8] Entered showAvailableHotelRoom()
+2021-04-20 11:23:45,337 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-8] Entered service showAvailableHotelRoom()
+2021-04-20 11:24:38,293 INFO com.cg.hotel.controller.TransactionController [http-nio-8090-exec-1] Entered addTransaction()
+2021-04-20 11:24:38,294 INFO com.cg.hotel.service.TransactionServiceImpl [http-nio-8090-exec-1] Entered service addTransaction()
+2021-04-20 11:24:38,422 INFO com.cg.hotel.controller.BookingDetailsController [http-nio-8090-exec-3] Entered addBookingDetails()
+2021-04-20 11:24:38,422 INFO com.cg.hotel.service.BookingDetailsServiceImpl [http-nio-8090-exec-3] Entered service addBookingDetails()
+2021-04-20 11:24:38,500 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-5] Entered addPayment()
+2021-04-20 11:24:38,500 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service addPayment()
+2021-04-20 11:24:38,554 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-7] Entered showPaymentDetails()
+2021-04-20 11:24:38,555 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-7] Entered service showAllPayments()
+2021-04-20 11:25:07,355 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered userBooking()
+2021-04-20 11:25:07,355 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service userBooking()
+2021-04-20 11:25:15,814 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 11:25:15,815 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 11:27:20,500 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 11:27:20,501 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 11:27:24,411 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 11:27:24,412 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 11:27:25,240 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllPayment()
+2021-04-20 11:27:25,241 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 11:27:28,890 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 11:27:28,891 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 11:27:39,021 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-20 11:27:39,022 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-20 11:27:49,457 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 11:27:49,458 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 11:27:52,150 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllPayment()
+2021-04-20 11:27:52,151 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-04-20 11:27:58,238 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllUsers()
+2021-04-20 11:27:58,239 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showAllUsers()
+2021-04-20 11:28:00,554 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered removeUser()
+2021-04-20 11:28:00,555 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service removeUser()
+2021-04-20 11:28:04,254 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 11:28:04,255 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 11:28:10,454 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered removeHotel()
+2021-04-20 11:28:10,454 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service removeHotel()
+2021-04-20 11:29:14,368 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-7] Entered showHotelRoom()
+2021-04-20 11:29:14,369 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-7] Entered service showHotelRoom()
+2021-04-20 11:29:59,339 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-4] Entered showHotelRoom()
+2021-04-20 11:29:59,340 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-4] Entered service showHotelRoom()
+2021-04-20 11:30:01,664 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-6] Entered showRoom()
+2021-04-20 11:30:01,664 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-6] Entered service showRoom()
+2021-04-20 11:30:11,534 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-8] Entered showHotelRoom()
+2021-04-20 11:30:11,535 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-8] Entered service showHotelRoom()
+2021-04-20 11:30:13,006 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-10] Entered showRoom()
+2021-04-20 11:30:13,006 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-10] Entered service showRoom()
+2021-04-20 11:30:20,238 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-1] Entered showHotelRoom()
+2021-04-20 11:30:20,239 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-1] Entered service showHotelRoom()
+2021-04-20 11:30:21,401 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-2] Entered showRoom()
+2021-04-20 11:30:21,402 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-2] Entered service showRoom()
+2021-04-20 11:30:24,841 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-4] Entered showHotelRoom()
+2021-04-20 11:30:24,842 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-4] Entered service showHotelRoom()
+2021-04-20 11:30:28,770 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-5] Entered showRoom()
+2021-04-20 11:30:28,771 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-5] Entered service showRoom()
+2021-04-20 11:31:06,402 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-7] Entered showHotelRoom()
+2021-04-20 11:31:06,403 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-7] Entered service showHotelRoom()
+2021-04-20 11:31:07,996 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-9] Entered showRoom()
+2021-04-20 11:31:07,997 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-9] Entered service showRoom()
+2021-04-20 11:32:06,449 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-2] Entered showHotelRoom()
+2021-04-20 11:32:06,450 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-2] Entered service showHotelRoom()
+2021-04-20 11:32:08,945 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-4] Entered showRoom()
+2021-04-20 11:32:08,946 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-4] Entered service showRoom()
+2021-04-20 11:32:49,471 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-6] Entered showRoom()
+2021-04-20 11:32:49,471 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-6] Entered service showRoom()
+2021-04-20 11:32:52,586 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-7] Entered showHotelRoom()
+2021-04-20 11:32:52,587 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-7] Entered service showHotelRoom()
+2021-04-20 11:32:54,406 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-8] Entered showRoom()
+2021-04-20 11:32:54,407 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-8] Entered service showRoom()
+2021-04-20 11:33:02,112 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-10] Entered showHotelRoom()
+2021-04-20 11:33:02,113 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-10] Entered service showHotelRoom()
+2021-04-20 11:33:10,987 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-2] Entered showRoom()
+2021-04-20 11:33:10,988 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-2] Entered service showRoom()
+2021-04-20 11:33:15,224 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-4] Entered updateRoom()
+2021-04-20 11:33:15,225 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-4] Entered service updateRoom()
+2021-04-20 11:33:15,326 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-5] Entered showHotelRoom()
+2021-04-20 11:33:15,327 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-5] Entered service showHotelRoom()
+2021-04-20 11:34:07,289 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-7] Entered showHotelRoom()
+2021-04-20 11:34:07,290 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-7] Entered service showHotelRoom()
+2021-04-20 11:34:08,828 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-8] Entered showRoom()
+2021-04-20 11:34:08,829 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-8] Entered service showRoom()
+2021-04-20 11:34:32,946 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-10] Entered updateRoom()
+2021-04-20 11:34:32,947 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-10] Entered service updateRoom()
+2021-04-20 11:34:33,004 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-1] Entered showHotelRoom()
+2021-04-20 11:34:33,005 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-1] Entered service showHotelRoom()
+2021-04-20 11:34:41,283 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-3] Entered showRoom()
+2021-04-20 11:34:41,284 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-3] Entered service showRoom()
+2021-04-20 11:55:14,158 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service loginUserJwt()
+2021-04-20 11:55:14,209 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 11:55:14,210 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 12:12:00,885 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered userBooking()
+2021-04-20 12:12:00,886 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service userBooking()
+2021-04-20 12:27:44,146 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-04-20 12:27:44,192 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-HSJMU2S with PID 23108 (C:\Users\kkhan\git\hotelmanagementrepo\hotel\bin\main started by kkhan in C:\Users\kkhan\git\hotelmanagementrepo\hotel)
+2021-04-20 12:27:44,194 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.6
+2021-04-20 12:27:44,194 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-20 12:27:44,369 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\kkhan\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-04-20 12:27:44,370 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-20 12:27:44,371 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-20 12:27:47,038 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-20 12:27:47,237 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 182 ms. Found 7 JPA repository interfaces.
+2021-04-20 12:27:48,929 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-20 12:27:48,962 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-20 12:27:48,964 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-20 12:27:48,965 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 12:27:49,194 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-20 12:27:49,195 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4816 ms
+2021-04-20 12:27:49,682 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-20 12:27:50,216 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-20 12:27:50,223 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-20 12:27:50,320 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-20 12:27:50,462 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-20 12:27:50,829 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-20 12:27:51,082 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-04-20 12:27:52,623 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-20 12:27:52,641 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-20 12:27:53,325 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-04-20 12:27:53,459 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-20 12:27:54,653 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-20 12:27:54,825 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21c3e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@fc1afad, org.springframework.security.web.header.HeaderWriterFilter@4ff96d8a, org.springframework.web.filter.CorsFilter@4be18887, org.springframework.security.web.authentication.logout.LogoutFilter@864ef0c, com.cg.hotel.config.JwtRequestFilter@5139ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56f7cfc1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c621eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f6f8f9, org.springframework.security.web.session.SessionManagementFilter@18b95161, org.springframework.security.web.access.ExceptionTranslationFilter@10c3603f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c7f30f]
+2021-04-20 12:27:54,963 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 12:27:55,005 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-20 12:27:55,340 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-20 12:27:55,405 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-20 12:27:55,408 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-20 12:27:55,457 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-20 12:27:55,827 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-20 12:27:56,542 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-20 12:27:56,554 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-20 12:27:56,558 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-20 12:27:56,567 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-20 12:27:56,581 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-20 12:27:56,593 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-20 12:27:56,604 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_1
+2021-04-20 12:27:56,617 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-20 12:27:56,621 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-20 12:27:56,629 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-20 12:27:56,637 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-20 12:27:56,659 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-20 12:27:56,685 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-20 12:27:56,697 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-20 12:27:56,703 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-20 12:27:56,758 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-20 12:27:56,768 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-20 12:27:56,784 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-20 12:27:56,796 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-20 12:27:56,808 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_2
+2021-04-20 12:27:56,826 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-20 12:27:56,831 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-20 12:27:56,840 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-20 12:27:56,849 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-20 12:27:56,894 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 14.055 seconds (JVM running for 15.214)
+2021-04-20 12:27:56,897 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-04-20 12:27:56,902 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-04-20 12:39:10,568 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-20 12:39:10,569 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-20 12:39:10,571 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 2 ms
+2021-04-20 12:39:11,293 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllUsers()
+2021-04-20 12:39:11,294 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-4] Entered service showAllUsers()
+2021-04-20 12:39:18,654 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllHotels()
+2021-04-20 12:39:18,655 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-7] Entered service showAllHotels()
+2021-04-20 12:39:24,044 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllUsers()
+2021-04-20 12:39:24,044 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-9] Entered service showAllUsers()
+2021-04-20 12:39:24,817 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllPayment()
+2021-04-20 12:39:24,818 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-1] Entered service showAllPayments()
+2021-04-20 12:39:29,693 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 12:39:29,693 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 12:39:30,181 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 12:39:30,182 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 12:39:30,941 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 12:39:30,942 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 12:39:40,256 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 12:39:40,257 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 12:39:43,187 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 12:39:43,187 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 12:39:45,449 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 12:39:45,449 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 12:44:29,005 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllPayment()
+2021-04-20 12:44:29,009 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-1] Entered service showAllPayments()
+2021-04-20 12:44:30,242 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 12:44:30,243 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 12:44:32,504 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 12:44:32,505 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 12:45:14,937 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllPayment()
+2021-04-20 12:45:14,938 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-04-20 12:45:17,131 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 12:45:17,132 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 12:45:18,918 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllUsers()
+2021-04-20 12:45:18,919 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service showAllUsers()
+2021-04-20 12:47:24,875 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-3] Entered showHotelRoom()
+2021-04-20 12:47:24,876 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-3] Entered service showHotelRoom()
+2021-04-20 12:47:30,399 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-7] Entered showHotelRoom()
+2021-04-20 12:47:30,400 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-7] Entered service showHotelRoom()
+2021-04-20 12:48:59,185 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-10] Entered showRoom()
+2021-04-20 12:48:59,186 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-10] Entered service showRoom()
+2021-04-20 12:49:05,227 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-2] Entered showHotelRoom()
+2021-04-20 12:49:05,227 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-2] Entered service showHotelRoom()
+2021-04-20 12:49:07,738 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-3] Entered showRoom()
+2021-04-20 12:49:07,739 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-3] Entered service showRoom()
+2021-04-20 12:52:26,928 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-9] Entered showHotelRoom()
+2021-04-20 12:52:26,929 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-9] Entered service showHotelRoom()
+2021-04-20 12:52:36,041 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-3] Entered showHotelRoom()
+2021-04-20 12:52:36,042 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-3] Entered service showHotelRoom()
+2021-04-20 12:52:37,683 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-4] Entered showRoom()
+2021-04-20 12:52:37,683 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-4] Entered service showRoom()
+2021-04-20 13:43:44,900 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-9] Entered showHotelRoom()
+2021-04-20 13:43:44,902 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-9] Entered service showHotelRoom()
+2021-04-20 13:47:38,043 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-20 13:47:38,044 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-20 13:47:41,171 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllPayment()
+2021-04-20 13:47:41,172 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-9] Entered service showAllPayments()
+2021-04-20 13:47:46,694 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllUsers()
+2021-04-20 13:47:46,695 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service showAllUsers()
+2021-04-20 13:47:47,312 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 13:47:47,313 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 14:46:42,728 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-04-20 14:46:42,777 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-HSJMU2S with PID 17860 (C:\Users\kkhan\git\hotelmanagementrepo\hotel\bin\main started by kkhan in C:\Users\kkhan\git\hotelmanagementrepo\hotel)
+2021-04-20 14:46:42,778 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.6
+2021-04-20 14:46:42,780 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-20 14:46:42,962 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\kkhan\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-04-20 14:46:42,963 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-20 14:46:42,965 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-20 14:46:46,190 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-20 14:46:46,535 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 312 ms. Found 7 JPA repository interfaces.
+2021-04-20 14:46:48,539 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-20 14:46:48,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-20 14:46:48,585 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-20 14:46:48,587 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 14:46:49,042 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-20 14:46:49,044 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6077 ms
+2021-04-20 14:46:49,629 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-20 14:46:50,335 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-20 14:46:50,347 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-20 14:46:50,549 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-20 14:46:50,804 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-20 14:46:51,309 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-20 14:46:51,614 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-04-20 14:46:54,482 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-20 14:46:54,508 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-20 14:46:55,470 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-04-20 14:46:55,658 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-20 14:46:57,201 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-20 14:46:57,364 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69b870f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f0d678f, org.springframework.security.web.header.HeaderWriterFilter@38364812, org.springframework.web.filter.CorsFilter@6ae8bb96, org.springframework.security.web.authentication.logout.LogoutFilter@7676f84a, com.cg.hotel.config.JwtRequestFilter@55698ca1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fbbf740, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4958e656, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1742262d, org.springframework.security.web.session.SessionManagementFilter@1e013dfd, org.springframework.security.web.access.ExceptionTranslationFilter@7bdcdf8a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@700fa3e9]
+2021-04-20 14:46:57,487 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 14:46:57,528 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-20 14:46:57,894 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-20 14:46:57,979 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-20 14:46:57,983 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-20 14:46:58,069 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-20 14:46:58,613 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-20 14:46:59,558 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-20 14:46:59,572 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-20 14:46:59,581 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-20 14:46:59,594 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-20 14:46:59,606 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-20 14:46:59,631 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-20 14:46:59,641 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_1
+2021-04-20 14:46:59,653 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-20 14:46:59,661 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-20 14:46:59,672 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-20 14:46:59,685 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-20 14:46:59,706 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-20 14:46:59,738 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-20 14:46:59,751 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-20 14:46:59,759 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-20 14:46:59,817 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-20 14:46:59,829 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-20 14:46:59,846 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-20 14:46:59,871 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-20 14:46:59,886 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_2
+2021-04-20 14:46:59,910 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-20 14:46:59,917 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-20 14:46:59,929 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-20 14:46:59,940 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-20 14:47:00,031 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 18.524 seconds (JVM running for 20.825)
+2021-04-20 14:47:00,036 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-04-20 14:47:00,051 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-04-20 14:47:46,549 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-20 14:47:46,551 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-20 14:47:46,556 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 4 ms
+2021-04-20 14:47:47,870 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllUsers()
+2021-04-20 14:47:47,871 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service showAllUsers()
+2021-04-20 14:48:15,750 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 14:48:15,752 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 14:48:18,173 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllPayment()
+2021-04-20 14:48:18,175 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 14:48:23,780 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-20 14:48:23,781 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-20 14:48:24,559 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 14:48:24,560 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 14:48:25,481 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllPayment()
+2021-04-20 14:48:25,483 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-3] Entered service showAllPayments()
+2021-04-20 14:58:54,601 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllUsers()
+2021-04-20 14:58:54,603 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service showAllUsers()
+2021-04-20 14:59:01,981 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 14:59:01,983 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 14:59:03,538 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllPayment()
+2021-04-20 14:59:03,540 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-9] Entered service showAllPayments()
+2021-04-20 14:59:06,900 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-04-20 14:59:06,901 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-04-20 14:59:11,212 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllHotels()
+2021-04-20 14:59:11,213 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-2] Entered service showAllHotels()
+2021-04-20 14:59:13,952 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllPayment()
+2021-04-20 14:59:13,953 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-3] Entered service showAllPayments()
+2021-04-20 14:59:25,765 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 14:59:25,767 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 14:59:29,818 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-6] Entered showAllHotels()
+2021-04-20 14:59:29,821 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-6] Entered service showAllHotels()
+2021-04-20 14:59:31,551 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-8] Entered showAllPayment()
+2021-04-20 14:59:31,552 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service showAllPayments()
+2021-04-20 14:59:37,261 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-9] Entered showAllHotels()
+2021-04-20 14:59:37,262 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-9] Entered service showAllHotels()
+2021-04-20 15:05:31,331 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllHotels()
+2021-04-20 15:05:31,333 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-1] Entered service showAllHotels()
+2021-04-20 15:05:32,477 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-2] Entered showAllUsers()
+2021-04-20 15:05:32,478 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service showAllUsers()
+2021-04-20 15:05:36,319 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered showAllHotels()
+2021-04-20 15:05:36,320 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service showAllHotels()
+2021-04-20 15:05:37,160 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-4] Entered showAllPayment()
+2021-04-20 15:05:37,161 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-4] Entered service showAllPayments()
+2021-04-20 15:05:38,823 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllUsers()
+2021-04-20 15:05:38,825 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-5] Entered service showAllUsers()
+2021-04-20 15:07:09,205 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service loginUserJwt()
+2021-04-20 15:07:09,297 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-04-20 15:07:09,298 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-04-20 15:07:34,131 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered userBooking()
+2021-04-20 15:07:34,132 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service userBooking()
+2021-04-20 15:07:41,358 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-04-20 15:07:41,359 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-04-20 15:07:44,518 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-6] Entered userBooking()
+2021-04-20 15:07:44,519 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-6] Entered service userBooking()
+2021-04-20 15:07:47,549 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-8] Entered showAllHotels()
+2021-04-20 15:07:47,550 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-8] Entered service showAllHotels()
+2021-04-20 15:08:03,674 INFO com.cg.hotel.controller.RoomController [http-nio-8090-exec-1] Entered showAvailableHotelRoom()
+2021-04-20 15:08:03,675 INFO com.cg.hotel.service.RoomServiceImpl [http-nio-8090-exec-1] Entered service showAvailableHotelRoom()
+2021-04-20 15:08:59,954 INFO com.cg.hotel.controller.TransactionController [http-nio-8090-exec-4] Entered addTransaction()
+2021-04-20 15:08:59,955 INFO com.cg.hotel.service.TransactionServiceImpl [http-nio-8090-exec-4] Entered service addTransaction()
+2021-04-20 15:09:00,176 INFO com.cg.hotel.controller.BookingDetailsController [http-nio-8090-exec-6] Entered addBookingDetails()
+2021-04-20 15:09:00,178 INFO com.cg.hotel.service.BookingDetailsServiceImpl [http-nio-8090-exec-6] Entered service addBookingDetails()
+2021-04-20 15:09:00,355 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-8] Entered addPayment()
+2021-04-20 15:09:00,356 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-8] Entered service addPayment()
+2021-04-20 15:09:00,439 INFO com.cg.hotel.controller.PaymentController [http-nio-8090-exec-10] Entered showPaymentDetails()
+2021-04-20 15:09:00,440 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-10] Entered service showAllPayments()
+2021-04-20 15:09:35,580 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered userBooking()
+2021-04-20 15:09:35,582 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service userBooking()
+2021-04-20 15:09:37,836 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-4] Entered showAllHotels()
+2021-04-20 15:09:37,838 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-4] Entered service showAllHotels()
+2021-04-20 15:12:05,423 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-7] Entered showAllUsers()
+2021-04-20 15:12:05,425 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-7] Entered service showAllUsers()
+2021-04-20 15:12:08,873 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered removeUser()
+2021-04-20 15:12:08,875 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service removeUser()
+2021-04-20 15:12:10,780 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllHotels()
+2021-04-20 15:12:10,782 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-1] Entered service showAllHotels()
+2021-04-20 15:12:12,412 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-3] Entered removeHotel()
+2021-04-20 15:12:12,413 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-3] Entered service removeHotel()
+2021-04-20 16:03:23,837 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-04-20 16:03:23,889 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-HSJMU2S with PID 23748 (C:\Users\kkhan\git\hotelmanagementrepo\hotel\bin\main started by kkhan in C:\Users\kkhan\git\hotelmanagementrepo\hotel)
+2021-04-20 16:03:23,891 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.6
+2021-04-20 16:03:23,892 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-20 16:03:24,071 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\kkhan\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-04-20 16:03:24,073 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-20 16:03:24,074 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-20 16:03:27,275 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-20 16:03:27,772 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 446 ms. Found 7 JPA repository interfaces.
+2021-04-20 16:03:29,669 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-04-20 16:03:29,706 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-20 16:03:29,708 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-20 16:03:29,710 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-20 16:03:30,040 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-20 16:03:30,041 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5963 ms
+2021-04-20 16:03:30,653 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-20 16:03:31,430 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-04-20 16:03:31,440 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-20 16:03:31,667 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-20 16:03:31,937 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-04-20 16:03:32,442 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-20 16:03:32,876 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-04-20 16:03:35,409 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-20 16:03:35,430 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-20 16:03:36,394 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-04-20 16:03:36,612 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-20 16:03:38,345 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-20 16:03:38,515 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d83a656, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a13aedd, org.springframework.security.web.header.HeaderWriterFilter@2c254ed9, org.springframework.web.filter.CorsFilter@502eff5, org.springframework.security.web.authentication.logout.LogoutFilter@57c6bb88, com.cg.hotel.config.JwtRequestFilter@3db3de34, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@220ee67a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67f3437d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cec6aea, org.springframework.security.web.session.SessionManagementFilter@388796bb, org.springframework.security.web.access.ExceptionTranslationFilter@35b4bc8d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a451cb2]
+2021-04-20 16:03:38,670 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-20 16:03:38,769 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-20 16:03:39,244 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-04-20 16:03:39,292 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-20 16:03:39,294 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-04-20 16:03:39,330 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-04-20 16:03:39,918 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-04-20 16:03:40,845 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-04-20 16:03:40,859 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-04-20 16:03:40,865 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-04-20 16:03:40,879 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-04-20 16:03:40,889 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-04-20 16:03:40,908 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-04-20 16:03:40,920 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_1
+2021-04-20 16:03:40,935 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-04-20 16:03:40,942 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-04-20 16:03:40,955 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-04-20 16:03:40,968 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-04-20 16:03:40,992 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-04-20 16:03:41,023 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-04-20 16:03:41,035 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-04-20 16:03:41,040 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-04-20 16:03:41,118 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-04-20 16:03:41,133 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-04-20 16:03:41,158 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-04-20 16:03:41,187 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-04-20 16:03:41,197 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_2
+2021-04-20 16:03:41,222 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-04-20 16:03:41,230 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-04-20 16:03:41,243 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-04-20 16:03:41,256 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-04-20 16:03:41,302 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 18.895 seconds (JVM running for 20.596)
+2021-04-20 16:03:41,304 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-04-20 16:03:41,309 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC

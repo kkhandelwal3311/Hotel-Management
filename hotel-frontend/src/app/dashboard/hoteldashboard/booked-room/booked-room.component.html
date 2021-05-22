@@ -1,0 +1,27 @@
+<h1>Booking Details</h1>
+<div class="row box">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>bookingId</th>
+          <th>roomId</th>
+          <th>noOfAdults</th>
+          <th>noOfChildren</th>
+          <th>bookedFrom</th>
+          <th>bookedTo</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let booking of bookingDetail">
+        <tr *ngIf="booking.roomId.roomId == roomId">
+          <td>{{ booking.bookingId }}</td>
+          <td>{{ booking.roomId.roomId }}</td>
+          <td>{{ booking.noOfAdults }}</td>
+          <td>{{ booking.noOfChildren }}</td>
+          <td>{{ booking.bookedFrom }}</td>
+          <td>{{ booking.bookedTo }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

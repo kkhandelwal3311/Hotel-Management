@@ -1,0 +1,40 @@
+<div class="container box">
+  <form #roomForm="ngForm" (ngSubmit)="onSubmit(roomForm)">
+    <h1>Add Room</h1>
+    <div class="form-group">
+      <label for="roomNo">Room no:</label>
+      <input
+        type="number"
+        class="form-control"
+        placeholder="Enter roomNo"
+        id="roomNo"
+        name="roomNo"
+        ngModel
+      />
+    </div>
+    <div class="form-group">
+      <label for="roomType">Select Room Type:</label>
+      <select class="form-control" id="roomType" name="roomType" ngModel>
+        <option>Non AC</option>
+        <option>Non AC Delux</option>
+        <option>AC</option>
+        <option>AC Delux</option>
+        <option>AC Super Delux</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="ratePerDay">Room Rate per Day:</label>
+      <input
+        type="number"
+        class="form-control"
+        placeholder="Enter ratePerDay"
+        id="ratePerDay"
+        name="ratePerDay"
+        ngModel
+      />
+    </div>
+    <pre></pre>
+    <input type="submit" value="Add room" class="btn" />
+    <pre></pre>
+  </form>
+</div>

@@ -1,0 +1,105 @@
+.btn,
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(48, 0, 104);
+}
+.datebox {
+  max-width: 300px;
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: auto;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.btn {
+  background-color:#0eb550 !important;
+  color: white;
+  height: 40px;
+  border: 2px solid #0eb550 !important;
+}
+
+.btn-inverse {
+  background-color: rgb(48, 0, 104);
+  color: #fff;
+  margin-top: 5px;
+}
+
+input,
+.btn {
+  width: 100%;
+  max-width: 270px;
+  height: 40px;
+}
+
+input {
+  padding-left: 15px;
+}
+
+/* =================================================  */
+.box {
+  background-color: rgb(255, 255, 255);
+  max-width: 900px;
+  border: 1px solid rgb(61, 0, 175, 0.2);
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 10px;
+  height: auto;
+}
+p {
+  margin-left: 10px;
+  color: rgb(0, 0, 99);
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 5px;
+}
+label {
+  padding: 0 15px;
+  font-size: 14px;
+  margin-top: 5px;
+  color: rgb(41, 41, 41);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+button {
+  background-color: rgba(76, 40, 110, 0.993);
+  max-width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+img {
+  width: 80%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.carousel-image {
+  width: 600px;
+}
+
+.btn-inverse {
+  background-color: rgb(196, 196, 52) !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
+
+.box:hover {
+  box-shadow: 0 0 15px rgba(48, 39, 39, 0.479);
+  transition: 0.3s;
+}

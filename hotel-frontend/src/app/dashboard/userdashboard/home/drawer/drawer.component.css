@@ -1,0 +1,15 @@
+li {
+  padding: 5px;
+  font-size: 12px;
+}
+
+h5 {
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 5px;
+  color: #535353;
+}
+
+input {
+  margin-right: 10px;
+}

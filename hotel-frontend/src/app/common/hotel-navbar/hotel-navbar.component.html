@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a routerLink="" class="navbar-brand">BookMySuite</a>
+  <button
+    type="button"
+    class="navbar-toggler"
+    data-toggle="collapse"
+    data-target="#navbarCollapse"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav ml-auto">
+      <a routerLink="user-home" class="nav-item nav-link">Home</a>
+      <a routerLink="new-booking" class="nav-item nav-link">New Bookings</a>
+      <a routerLink="all-booking" class="nav-item nav-link">All Bookings</a>
+      <div class="dropdown">
+        <button
+          class="dropbtn nav-item nav-link"
+          style="color: white; font-size: 18px"
+        >
+          ola
+        </button>
+        <div class="dropdown-content">
+          <a [routerLink]="['/user-profile']">View Profile</a>
+          <a>Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

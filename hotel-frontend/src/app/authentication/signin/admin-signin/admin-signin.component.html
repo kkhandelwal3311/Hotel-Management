@@ -1,0 +1,82 @@
+<section class="container-fluid main">
+  <app-brand-navbar></app-brand-navbar>
+  <form
+    class="box"
+    name="form"
+    (ngSubmit)="f.form.valid && onSubmit()"
+    #f="ngForm"
+  >
+    <i
+      class="fa fa-user-o"
+      style="font-size: 80px; text-align: center; color: rgb(28, 0, 54)"
+    ></i>
+    <h1>Hotel Login</h1>
+    <pre></pre>
+    <div *ngIf="errMessage.length != 0" class="alert alert-danger">
+      Email or password is incorrect
+    </div>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        aria-describedby="emailHelp"
+        placeholder="Enter your email"
+        [(ngModel)]="hotelData.email"
+        #email="ngModel"
+        [ngClass]="{
+          'is-invalid': email.invalid && (email.dirty || email.touched)
+        }"
+        required
+        email
+      />
+      <div
+        *ngIf="email.invalid && (email.dirty || email.touched)"
+        class="invalid-feedback"
+      >
+        <p *ngIf="email.errors?.required">Email is required.</p>
+        <p *ngIf="email.errors?.email">This is not a valid Email.</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        name="password"
+        placeholder="Enter password"
+        [(ngModel)]="hotelData.password"
+        #pwd="ngModel"
+        [ngClass]="{
+          'is-invalid': pwd.invalid && (pwd.dirty || pwd.touched)
+        }"
+        required
+        password
+        minlength="8"
+      />
+      <div
+        *ngIf="pwd.invalid && (pwd.dirty || pwd.touched)"
+        class="invalid-feedback"
+      >
+        <div *ngIf="pwd.errors?.required">Password is required.</div>
+        <div *ngIf="pwd.errors?.minlength">This is not a valid Password.</div>
+      </div>
+    </div>
+    <pre></pre>
+    <button type="submit" class="btn" [disabled]="!f.valid">Login</button>
+    <pre></pre>
+    <h4 style="text-align: center">
+      Don't have an account?
+      <span style="color: crimson">
+        <a [routerLink]="['/hotel-signup']">Register</a></span
+      >
+    </h4>
+    <pre></pre>
+    <button type="submit" class="btn btn-inverse" (click)="openUserLogin()">
+      Login as User
+    </button>
+  </form>
+</section>

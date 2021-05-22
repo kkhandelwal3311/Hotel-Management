@@ -1,0 +1,126 @@
+<app-navbar-after></app-navbar-after>
+<div class="container">
+  <div class="row">
+    <div class="offset-lg-3"></div>
+    <div class="box col-lg-5 col-md-12 col-sm-12">
+      <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm">
+        <h1>Payment Details</h1>
+        <div class="form-group">
+          <label for="cardNumber"> Enter Debit Card no.</label>
+          <input
+            type="text"
+            pattern="[0-9]*"
+            maxlength="12"
+            minlength="12"
+            class="form-control"
+            id="cardNumber"
+            name="Number"
+            placeholder="1234 1234 1234 1234"
+            [(ngModel)]="data.Number"
+            #num="ngModel"
+            required
+            [ngClass]="{
+              'is-invalid': num.invalid && (num.dirty || num.touched)
+            }"
+            autofocus
+          />
+          <div
+            *ngIf="num.invalid && (num.dirty || num.touched)"
+            class="invalid-feedback"
+          >
+            <div *ngIf="num.errors?.required">
+              Card Number can Not Be Blank.
+            </div>
+            <div *ngIf="num.errors?.minlength">
+              Card Number should be minimum of 12 digits.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-md-6">
+            <div class="form-group">
+              <label for="expityMonth"> EXPIRY DATE</label>
+              <input
+                type="text"
+                class="form-control"
+                id="expiryMonth"
+                name="Exp_Date"
+                placeholder="MM/YYYY"
+                [(ngModel)]="data.Exp_Date"
+                #expdate="ngModel"
+                required
+                [ngClass]="{
+                  'is-invalid':
+                    expdate.invalid && (expdate.dirty || expdate.touched)
+                }"
+                autofocus
+              />
+              <div
+                *ngIf="expdate.invalid && (expdate.dirty || expdate.touched)"
+                class="invalid-feedback"
+              >
+                <div *ngIf="expdate.errors?.required">
+                  Expiry Date Can Not Be Blank.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-6 pull-right">
+            <div class="form-group">
+              <label for="cvCode"> CVV</label>
+              <input
+                type="password"
+                pattern="[0-9]*"
+                maxlength="3"
+                minlength="3"
+                class="form-control"
+                id="cvCode"
+                placeholder="123"
+                name="Cvv"
+                [(ngModel)]="data.Cvv"
+                #cvv="ngModel"
+                required
+                [ngClass]="{
+                  'is-invalid': cvv.invalid && (cvv.dirty || cvv.touched)
+                }"
+                autofocus
+              />
+              <div
+                *ngIf="cvv.invalid && (cvv.dirty || cvv.touched)"
+                class="invalid-feedback"
+              >
+                <div *ngIf="cvv.errors?.required">
+                  Cvv Number Can Not Be Blank.
+                </div>
+                <div *ngIf="cvv.errors?.minlength">
+                  Cvv should be minimum of 3 digits.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="amount">Total Payable Amount</label>
+          <input
+            type="amount"
+            class="form-control"
+            id="amount"
+            name="amount"
+            [(ngModel)]="bookingDetails.amount"
+            disabled
+          />
+        </div>
+      </form>
+      <button
+        class="btn btn-lg btn-block"
+        [disabled]="!f.valid"
+        role="button"
+        (click)="onSubmit()"
+        style="font-weight: bold"
+      >
+        Pay Now
+      </button>
+    </div>
+    <div class="offset-lg-3"></div>
+  </div>
+</div>

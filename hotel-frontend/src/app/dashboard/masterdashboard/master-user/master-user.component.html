@@ -1,0 +1,37 @@
+<h1>Number of User : {{ allUser.length }}</h1>
+<div class="row box">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th>User Id</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Role</th>
+          <th>Mobile</th>
+          <th>Address</th>
+          <th>Delete Option</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of allUser; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ user.userId }}</td>
+          <td>{{ user.userName }}</td>
+          <td>{{ user.email }}</td>
+          <td>{{ user.password }}</td>
+          <td>{{ user.role }}</td>
+          <td>{{ user.mobile }}</td>
+          <td>{{ user.address }}</td>
+          <td>
+            <button (click)="deleteUser(user.userId)" class="btn btn-danger">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

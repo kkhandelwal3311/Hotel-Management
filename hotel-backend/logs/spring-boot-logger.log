@@ -1,0 +1,90 @@
+2021-05-10 17:48:17,829 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-05-10 17:48:17,875 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HotelApplication using Java 15.0.1 on DESKTOP-HSJMU2S with PID 17224 (C:\Users\kkhan\git\hotelmanagementrepo\hotel\bin\main started by kkhan in C:\Users\kkhan\git\hotelmanagementrepo\hotel)
+2021-05-10 17:48:17,877 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.0-SNAPSHOT, Spring v5.3.6
+2021-05-10 17:48:17,878 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-05-10 17:48:18,024 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\kkhan\.gradle\caches\modules-2\files-2.1\com.oracle.database.security\oraclepki\21.1.0.0\e5d703a7dda3e004ea803147ab1be268eb489dd8\oraclepki-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/e5d703a7dda3e004ea803147ab1be268eb489dd8/osdt_cert.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_core.jar,file:/C:/Users/kkhan/.gradle/caches/modules-2/files-2.1/com.oracle.database.security/oraclepki/21.1.0.0/oracle.osdt/osdt_cert.jar
+2021-05-10 17:48:18,025 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-10 17:48:18,026 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-10 17:48:21,012 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-10 17:48:21,305 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 266 ms. Found 7 JPA repository interfaces.
+2021-05-10 17:48:23,574 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2021-05-10 17:48:23,611 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-10 17:48:23,613 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-05-10 17:48:23,615 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-10 17:48:23,965 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-05-10 17:48:23,967 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5938 ms
+2021-05-10 17:48:24,505 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-05-10 17:48:25,493 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2021-05-10 17:48:25,502 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-05-10 17:48:25,657 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-10 17:48:25,878 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-10 17:48:26,415 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-10 17:48:26,803 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-05-10 17:48:28,908 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-10 17:48:28,932 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-10 17:48:29,908 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-05-10 17:48:30,099 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-10 17:48:31,961 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-10 17:48:32,234 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@483b5af5, org.springframework.security.web.context.SecurityContextPersistenceFilter@54fbe23a, org.springframework.security.web.header.HeaderWriterFilter@75d299bb, org.springframework.web.filter.CorsFilter@18daf4b2, org.springframework.security.web.authentication.logout.LogoutFilter@611e9f9b, com.cg.hotel.config.JwtRequestFilter@58811fd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41c14bc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@505e7e28, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a35cd1b, org.springframework.security.web.session.SessionManagementFilter@26388e48, org.springframework.security.web.access.ExceptionTranslationFilter@37f12c0d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5de5fc4]
+2021-05-10 17:48:32,472 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-10 17:48:32,550 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-05-10 17:48:32,851 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2021-05-10 17:48:32,895 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-10 17:48:32,897 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-05-10 17:48:32,933 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-05-10 17:48:33,293 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-05-10 17:48:34,294 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addBookingDetailsUsingPOST_1
+2021-05-10 17:48:34,312 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeBookingDetailsUsingDELETE_1
+2021-05-10 17:48:34,323 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllBookingDetailsUsingGET_1
+2021-05-10 17:48:34,341 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showBookingDetailsUsingGET_1
+2021-05-10 17:48:34,361 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateBookingDetailsUsingPUT_1
+2021-05-10 17:48:34,393 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addHotelUsingPOST_1
+2021-05-10 17:48:34,411 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_1
+2021-05-10 17:48:34,427 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeHotelUsingDELETE_1
+2021-05-10 17:48:34,440 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllHotelsUsingGET_1
+2021-05-10 17:48:34,453 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showHotelUsingGET_1
+2021-05-10 17:48:34,467 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateHotelUsingPUT_1
+2021-05-10 17:48:34,498 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllPaymentUsingGET_1
+2021-05-10 17:48:34,528 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addRoomUsingPOST_1
+2021-05-10 17:48:34,541 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeRoomUsingDELETE_1
+2021-05-10 17:48:34,550 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllRoomUsingGET_1
+2021-05-10 17:48:34,636 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showRoomUsingGET_1
+2021-05-10 17:48:34,652 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateRoomUsingPUT_1
+2021-05-10 17:48:34,672 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllTransactionUsingGET_1
+2021-05-10 17:48:34,692 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUserUsingPOST_1
+2021-05-10 17:48:34,709 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: generateTokenUsingPOST_2
+2021-05-10 17:48:34,738 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: removeUserUsingDELETE_1
+2021-05-10 17:48:34,745 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showAllUsersUsingGET_1
+2021-05-10 17:48:34,757 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: showUserUsingGET_1
+2021-05-10 17:48:34,769 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updateUserUsingPUT_1
+2021-05-10 17:48:34,865 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HotelApplication in 18.242 seconds (JVM running for 20.037)
+2021-05-10 17:48:34,871 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-05-10 17:48:34,881 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-10 17:48:55,547 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-10 17:48:55,548 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-10 17:48:55,552 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 3 ms
+2021-05-10 17:48:56,416 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-2] User Forbidden
+2021-05-10 17:48:56,468 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-2] Resolved [com.cg.hotel.exception.UserNotFoundException: User Forbidden]
+2021-05-10 17:49:12,952 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-5] User Forbidden
+2021-05-10 17:49:12,956 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-5] Resolved [com.cg.hotel.exception.UserNotFoundException: User Forbidden]
+2021-05-10 17:49:14,548 ERROR com.cg.hotel.exception.GlobalExceptionHandler [http-nio-8090-exec-6] User Forbidden
+2021-05-10 17:49:14,553 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-6] Resolved [com.cg.hotel.exception.UserNotFoundException: User Forbidden]
+2021-05-10 17:50:19,218 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-10] Entered showAllUsers()
+2021-05-10 17:50:19,219 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service showAllUsers()
+2021-05-10 17:50:26,378 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-1] Entered showAllHotels()
+2021-05-10 17:50:26,379 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-1] Entered service showAllHotels()
+2021-05-10 17:50:27,504 INFO com.cg.hotel.controller.AdminController [http-nio-8090-exec-5] Entered showAllPayment()
+2021-05-10 17:50:27,505 INFO com.cg.hotel.service.PaymentServiceImpl [http-nio-8090-exec-5] Entered service showAllPayments()
+2021-05-10 17:51:20,180 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-8] Entered service loginUserJwt()
+2021-05-10 17:51:20,279 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-10] Entered showAllHotels()
+2021-05-10 17:51:20,280 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-10] Entered service showAllHotels()
+2021-05-10 17:52:13,916 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-2] Entered userBooking()
+2021-05-10 17:52:13,917 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-2] Entered service userBooking()
+2021-05-10 17:52:19,053 INFO com.cg.hotel.controller.HotelController [http-nio-8090-exec-5] Entered showAllHotels()
+2021-05-10 17:52:19,054 INFO com.cg.hotel.service.HotelServiceImpl [http-nio-8090-exec-5] Entered service showAllHotels()
+2021-05-10 17:52:32,001 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-3] Entered userBooking()
+2021-05-10 17:52:32,003 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-3] Entered service userBooking()
+2021-05-10 17:52:51,384 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-10] Entered updateUser()
+2021-05-10 17:52:51,386 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-10] Entered service updateUser()
+2021-05-10 17:53:21,963 INFO com.cg.hotel.controller.UserController [http-nio-8090-exec-1] Entered updateUser()
+2021-05-10 17:53:21,964 INFO com.cg.hotel.service.UserServiceImpl [http-nio-8090-exec-1] Entered service updateUser()
