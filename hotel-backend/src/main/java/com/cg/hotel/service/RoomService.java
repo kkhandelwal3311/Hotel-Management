@@ -12,20 +12,12 @@ import com.cg.hotel.entites.Room;
 
 public interface RoomService {
 	public Room addRoom(Room room);
-
 	public Room updateRoom(Room room);
-
 	public List<Room> removeRoom(int roomId);
-
 	public List<Room> showAllRoom();
-
 	public Room showRoom(int roomId);
-
 	public List<Room> showHotelRoom(int hotelId);
-
-	List<Room> showAvailableHotelRoom(int hotelId, Date bookedFrom, Date bookedTo);
-	
+        List<Room> showAvailableHotelRoom(int hotelId, Date bookedFrom, Date bookedTo);
 	public List<BookingDetails> showBookedRoom(int hotelId);
-	
 	public List<Payment> showHotelPayment(int hotelId);
 }
